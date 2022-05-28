@@ -16,6 +16,7 @@
 \usepackage[british]{babel} 
 \usepackage[hang]{footmisc}
 \def\footnotemargin{1em} % added 08-01-2020 Dennis Wittich
+\usepackage{tabularx}
 
 %\usepackage[authoryear]{natbib}
 %\def\bibhang{0pt}
@@ -49,9 +50,6 @@
 % first author name\textsuperscript{a,}\thanks{Corresponding author} , % second author name \textsuperscript{b}, etc.
 % thanks to Niclas Borlin 05-05-2016
 
-
-\commission{XX, }{YY} %This field is optional. If filled, XX and YY should be replaced by adequate numbers. See https://www2.isprs.org/commissions/
-\workinggroup{XX/YY} %This field is optional.
 \icwg{}   %This field is optional.
 
 % KAO: Use times symbol
@@ -66,190 +64,265 @@
 
 %\saythanks % added 28-02-2014 Markus Englich
 
-\section{MANUSCRIPT}\label{MANUSCRIPT}
+\section{INTRODUCTION}\label{INTRODUCTION}
  
 % KAO: Sloppy spacing ensures non-overfull lines. Can be removed if this is not an issue.
 \sloppy
 
-\subsection{General Instructions}\label{sec:General Instructions}
+Urban planning and design play an essential role in amplifying or diminishing built environmental threats to health promotion and disease prevention (Keedwell 2017; Hackman, et al. 2019). However, there is still a lack of good evidence and objective measures on how environmental aspects impact individual behaviour. The eMOTIONAL Cities project (eMOTIONAL Cities - Mapping the cities through the senses of those who make them 2021) sets out to understand how the natural and built environment can shape the feelings and emotions of those who experience it. It does so with a cross-disciplinary approach that includes urban planning, health, psychology, neuroscience, and environmental research.
+Data dissemination is one of the main focuses of the project. According to FAIR Principles, scientific research data must be findable, accessible, interoperable, and reusable. In a scientific project, good data dissemination must involve a good level of machine-actionability (CITE https://www.go-fair.org/fair-principles/).  
 
-The paper should have the following structure: 
+At the core of this research project lies a Spatial Data Infrastructure (SDI), which assembles disparate datasets that characterise the emotional landscape and built environment in different cities across Europe and the US. The SDI is a key tool to make the research data available within the project consortium and allow cross-fertilisation with other ongoing projects from the Urban Health Cluster and, later on, to reach a broader public audience.
 
-%\itemize
-\begin{enumerate}
-\setlength\itemsep{0em}\setlength\parskip{0em}\setlength\topsep{0em}\setlength\partopsep{0em}\setlength\parsep{0em} 
-\item{Title of the paper} 
-\item{Authors and affiliation, rendered \textbf{anonymous} }
-\item{Keywords (6--8 words)}
-\item{Abstract (100--250 words)}
-\item{Introduction}
-\item{Main body}
-\item{Conclusions}
-\item{Acknowledgements, rendered \textbf{anonymous}}
-\item{References}
-\item{Appendix (if applicable)}
-\end{enumerate}
 
 % KAO: Use proper quotes
-Full papers \textbf{submitted for double-blind review} must not contain any information which makes it possible to identify the authors. In particular, names and affiliations must be removed from the manuscript submitted for review. Also sentences such as ''As we have shown in previous work (Author\_x, 20xx)'' are to be avoided. Instead use a formulation such as ''Author\_x (20xx) has shown ...''. Note that submissions which have not been appropriately anonymised may be subject to immediate rejection.\\
-In case, the contribution has been accepted for publication, a camera-ready manuscript must be submitted at the due date. In this camera-ready manuscript the name(s) and affiliation(s) of the authors(s) must be identified, and acknowledgements can be personalized.
+%Full papers \textbf{submitted for double-blind review} must not contain any information which makes it possible to identify the authors. In particular, names and affiliations must be removed from the manuscript submitted for review. Also sentences such as ''As we have shown in previous work (Author\_x, 20xx)'' are to be avoided. Instead use a formulation such as ''Author\_x (20xx) has shown ...''. Note that submissions which have not been appropriately anonymised may be subject to immediate rejection.\\
+%In case, the contribution has been accepted for publication, a camera-ready manuscript must be submitted at the due date. In this camera-ready manuscript the name(s) and affiliation(s) of the authors(s) must be identified, and acknowledgements can be personalized.
 % In Section~\ref{MANUSCRIPT} we present related work
 %\newpage            
-\subsection{Page Layout, Spacing and Margins}\label{sec:Page Layout, Spacing and Margins}
+%\subsection{Page Layout, Spacing and Margins}\label{sec:Page Layout, Spacing and Margins}
 
-The paper must be compiled in one column for the Title and Abstract and in two columns for all subsequent text. All text should be single-spaced, unless otherwise stated. Left and right justified typing is preferred.
+%The paper must be compiled in one column for the Title and Abstract and in two columns for all subsequent text. All text should be single-spaced, unless otherwise stated. Left and right justified typing is preferred.
 
 
-\subsection{Preparation in electronic form}\label{sec:Preparation in electronic form}
+%\subsection{Preparation in electronic form}\label{sec:Preparation in electronic form}
 
 % KAO: Remove newline
-To assist authors in preparing their contributions, styleguides are 
-provided in Word and/or LaTeX on the ISPRS web Page, see: http://www.isprs.org/documents/orangebook/app5.aspx.
+%To assist authors in preparing their contributions, styleguides are 
+%provided in Word and/or LaTeX on the ISPRS web Page, see: http://www.isprs.org/documents/orangebook/app5.aspx.
 
 
+%\subsection{Length and Font}\label{sec:Length and Font}
 
-\subsection{Length and Font}\label{sec:Length and Font}
-
-All manuscripts, except Invited Papers are limited to a length of approximately eight (8) single-spaced pages (A4 size), including abstracts, figures, tables and references. ISPRS Invited Papers are limited to approximately twelve (12) pages. In any case, the minimum length is six (6) pages. The font type Times New Roman with a size of nine (9) points is to be used.
+%All manuscripts, except Invited Papers are limited to a length of approximately eight (8) single-spaced pages (A4 size), including abstracts, figures, tables and references. ISPRS Invited Papers are limited to approximately twelve (12) pages. In any case, the minimum length is six (6) pages. The font type Times New Roman with a size of nine (9) points is to be used.
 
 % KAO: Removed spacing before label: can cause references to be wrong
-\begin{table}[h]
-	\centering
-		\begin{tabular}{|l|c|c|}\hline
-			Setting&\multicolumn{2}{c|}{A4 size page}\\\hline
-			  &mm&inches\\
-			 Top&25&1.0\\
-			 Bottom&25&1.0\\
-			 Left&20&0.8\\
-			 Right&20&0.8\\
-			 Column Width&82&3.2\\
-			 Column Spacing&6&0.25\\\hline
-		\end{tabular}
-	\caption{Margin settings for A4 size page.}
-\label{tab:Margin_settings}
-\end{table}
 
-\section{TITLE AND ABSTRACT BLOCK}\label{sec:TITLE AND ABSTRACT BLOCK}
+\subsection{Spatial Data Infrastructures}\label{sec:SDIS}
 
-\subsection{Title}\label{sec:Title}
+The notion of SDIs emerged more than 20 years ago and has been constantly evolving, in response to both technological and organisational developments. 
+According to (TODO CITE) the term SDI encompasses multiple facets, ranging from the legal and political setting, to the organisational aspects, and technological enablers that make the sharing and use of geographic data possible. In this paper we will focus on the latter, which does not mean - by any means - that other aspects are of less importance.
 
-The title should appear centred in bold capital letters, at the top of the first page of the paper with a size of twelve (12) points and single-spacing. Author(s) name(s), affiliation and mailing address should be masked. They will only appear in the final version if the paper is accepted either in the ISPRS Annals or Archives.
+Traditionally, SDIs adopt the OGC W*s service interfaces (e.g.: WMS, WFS, WCS), which are based on SOAP, the Simple Object Access Protocol. However, in recent times, we have seen the rise of new architectural approaches, which are taken from a web-native perspective and, at the same time, prioritise a machine-actionability approach and data-centrism (Simoes and Cerciello 2021). Modern web-based APIs have numerous advantages, which speak for their efficiency and simplicity. They provide a simple approach to data processing and management functionalities, offer different encodings of the payload (e.g.: JSON, HTML, JSON-LD), can easily be integrated into different tools, and can facilitate the discovery of data through mainstream search engines such as Google and Bing (Kotsev et al. 2020). These APIs often follow a RESTful architecture, which simplifies their usage, while minimising the bandwidth usage. Moreover, the OpenAPI specification (OpenAPI Initiative 2011) allows documentation of APIs in a vendor-independent, portable and open manner, which provides an interactive testing client within the API documentation.
 
-\subsection{ISPRS Affiliation (optional)}\label{sec:ISPRS Affiliation (optional)}
+OGC has embraced this new approach in its new family of standards called OGC APIs (OGC 2020a). Although still under active development, it already produced several approved standards: the ‘OGC API - Features’’ (OGC 2022b, the ‘OGC API - EDR’ (OGC 2022c), the ‘OGC API Common’ (OGC 2022d), and the ‘OGC API - Processes’ (OGC 2022e) which provide standardised APIs for ensuring modern access to spatial data and processes using those data.
+There are many similarities in the process of designing and implementing open source and open standards. OSGeo encourages the use of open standards, like those from OGC and there is even a Memorandum of Understanding between the two organisations, initially signed in 2008 and updated recently, in 2022 (OSGeo 2012). In practice, many long-standing OSGeo projects implement OGC standards and they often contribute to the standards development (e.g.: GDAL, Geoserver, QGIS, OpenLayers, Leaflet). However, in the majority of cases, they still implement the legacy W*s standards, rather than the new OGC APIs.
 
-% KAO: Use proper quotes
-For those authors affiliated with a specific Commission and/or Working Group of ISPRS, a separate title may be entered. The title should be centred in bold type after one blank line below the author’s affiliation, i.e. Commission~\#, Working Group~\#. The Commission number shall be Roman and the Working Group number should be the Commission Roman number, slash, WG Arabic number (see example above).
+\section{The eMOTIONAL Cities SDI}\label{sec:EC-SDI}
 
+The eMOTIONAL Cities project collects mostly vector datasets, from the neuroscience and urban planning domain (see Figure~\ref{fig:survey-results}). These datasets typically associate a location and a timestamp to other numerical or textual attributes.
 
-\subsection{Key Words}\label{sec:Key Words}
-
-% KAO: Use proper quotes and dash
-Leave two lines blank, then type \textbf{``KEY WORDS:''}
-in bold capital letters, followed by 5--8 key words. Note that ISPRS does not provide a set 
-list of key words any longer. Therefore, include those key words which you would 
-use to find a paper with content you are preparing.
-
-
-\subsection{Abstract}\label{sec:Abstract}
-
-% KAO: Use proper quotes and dash
-Leave two blank lines under the key words. Type \textbf{``ABSTRACT:''}
-flush left in bold Capitals followed by one blank line. Start now
-with a concise Abstract (100--250 words) which presents briefly the
-content and very importantly, the news and results of the paper in
-words understandable also to non-specialists. 
-
-
-\section{MAIN BODY OF TEXT}\label{sec:MAIN BODY OF TEXT}
-
-Type text single-spaced, \textbf{with} one blank line between paragraphs and 
-following headings. Start paragraphs flush with left margin.
-
-
-\subsection{Headings}\label{sec:Headings}
-
-% KAO: Remove explicit newlines in this section
-Major headings are to be centred, in bold capitals without 
-underlining, after two blank lines and followed by a one blank line.
-
-Type subheadings flush with the left margin in bold upper case and lower 
-case letters. Subheadings are on a separate line between two single blank lines.
-
-Subsubheadings are to be typed in bold upper case and lower case letters 
-after one blank line flush with the left margin of the page, with text 
-following on the same line. Subsubheadings may be followed by a period 
-or colon, they may also be the first word of the paragraph's sentence.
-
-Use decimal numbering for headings and subheadings.
-
-
-\subsection{Footnotes}\label{sec:Footnotes}
-
-Mark footnotes in the text with a number (1); use consecutive numbers for following footnotes. Place footnotes at the bottom of the page, separated from the text above it by a horizontal line.
-
-
-\subsection{Illustrations and Tables}\label{sec:Illustrations and Tables}
-
-\subsubsection{Placement:}\label{sec:Placement}
-
-Figures must be placed in the appropriate location in the document, 
-as close as practicable to the reference of the figure in the text. 
-While figures and tables are usually aligned horizontally on the page, 
-large figures and tables sometimes need to be turned on their sides. 
-If you must turn a figure or table sideways, please be sure that the 
-top is always on the left-hand side of the page.
-
-
-\subsubsection{Captions:}\label{sec:Captions}
-
-All captions should be typed in upper and lower case letters, 
-centred directly beneath the illustration. Use single spacing if they 
-use more than one line. All captions are to be numbered consecutively, 
-e.g. Figure~1, Figure~2, Figure~3, ..  and Table~1, Table~2, Table~3, ...
-
-% KAO: Remove spacing before label: can cause reference to be wrong
 \begin{figure}[ht!]
 \begin{center}
-		\includegraphics[width=1.0\columnwidth]{figures/test_sites/fig1.eps}
-	\caption{Figure placement and numbering.}
-\label{fig:figure_placement}
+		\includegraphics[width=1.0\columnwidth]{figures/foss4g-survey-data.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:survey-results}
 \end{center}
 \end{figure}
 
+When surveyed about the purpose of these data, the majority of the researchers in the project mentioned interactive mapping and analysis as their main use cases (CITE D3.1). With this background in mind, we have selected a set of OGC standards that are best suited to accommodate the project assets in an SDI. In Table~\ref{tab:apis}, we list the selected standards considering the legacy OGC W*s, and their translation to OGC APIs. At the very least, we need to be able to provide access to vector attributes and geometry and provide an interface for web mapping. All datasets should be discovered and accessed through their metadata.
 
-\subsubsection{Copyright:}\label{sec:Copyright}
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|p{0.20\linewidth} | p{0.20\linewidth} | p{0.45\linewidth}|}\hline
+      OGC W*s  & OGC API& Description \\\hline
+      WFS & Features & Provides access to feature data.\\
+      WMTS & Tiles & Provides access to pre-rendered tiles
+of geospatial information.\\
+      CSW & Records & Provides discovery and access to
+metadata about geospatial resources. \\\hline
+    \end{tabular}
+    \caption{TODO: UPDATE CAPTION.}
+    \label{tab:apis}
+\end{table}
+
+%\begin{table}[h]
+%	\centering
+%		\begin{tabular}{|l|c|c|}\hline
+%			OGC W*s&OGCAPI&Accesses\\\hline
+%			 WFS&Features&Feature data\\
+%			 WMTS&Tiles&Pre-rendered tiles\\
+%			 Left&20&0.8\\
+%			 Right&20&0.8\\
+%			 Column Width&82&3.2\\
+%			 Column Spacing&6&0.25\\\hline
+%		\end{tabular}
+%	\caption{Margin settings for A4 size page.}
+%\label{tab:Margin_settings}
+%\end{table}
+
+\subsection{Server-side Architecture}\label{sec:SERVER}
+
+Once we selected the standards for the SDI, we set out to select our software stack from existing server-side implementations of the OGC API standards, which are listed under the relevant OGC API GitHub (CITE features, tiles, records). If available, we would favour choosing OSGeo software, as we would like to benefit from all the advantages of using Free and Open-Source Software (FOSS), including the ability to contribute changes back, if deemed relevant. In the interest of simplicity, we would also prefer software projects that implement more than one of the OGC APIs we selected, and if possible all of them. Currently, there is only one software project that addresses these two requirements: pygeoapi.
+
+pygeoapi is a Python server implementation of the OGC API suite of standards, which “emerged as part of the next generation OGC API efforts in 2018”. It implements a number of OGC APIs, including OGC API - Tiles and OGC API - Features, and it is certified OGC Compliant and an OGC Reference Implementation for OGC API - Features - Part 1: Core 1.0. Rather than being a facade for existing W*s implementations, pygeoapi implements all the OGC APIs from scratch, leveraging all the benefits of modern web practices. For instance, it makes use of HTTP verbs (e.g.: GET/PUT/POST/DELETE) and codes (e.g.: 200, 201, 400, etc) and relies on content negotiation to retrieve the relevant media types. It also adopts JSON (JavaScript Object Notation) encodings, which is very popular among web developers and a first-class citizen in RESTfull (REST- REpresentational State Transfer) web services (CITE ).
+
+According to the pygeoapi documentation (CITE HERE), several data providers are supported for publishing vector data as OGC API - features (see Figure~\ref{fig:pygeoapi-providers}). ElasticSearch, along with SensorThingsAPI, is the data provider which provides the full range of functionality, including support for DateTime, which is an important aspect of neuroscience data.
+
+\begin{figure}[ht!]
+\begin{center}
+		\includegraphics[width=1.0\columnwidth]{figures/pygeoapi-data-providers.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:pygeoapi-providers}
+\end{center}
+\end{figure}
+
+ElasticSearch is a search engine, dual-licensed under the source-available Server Side Public Licence and the Elastic licence (TODO: cite source). It is part of the ELK stack, which includes Logstash, a server‑side data processing pipeline that ingests data from multiple sources simultaneously, transforms it, and then sends it to ElasticSearch and Kibana, a tool to visualise ElasticSearch data with maps, charts and graphs (TODO: CITE). By adopting ElasticSearch as a vector data provider for pygeoapi, we can also leverage the complete ELK stack, to ingest and visualise our data assets.
+
+The architecture of the eMOTIONAL Cities SDI is described in Figure~\ref{fig:sdi-arch} and Figure~\ref{fig:docker-compose} of the APPENDIX. Data and metadata are ingested from GeoJSON files in a data lake, and published as OGC API - Features, OGC API - Records and OGC API - Tiles.
+
+\begin{figure}[ht!]
+\begin{center}
+		\includegraphics[width=1.0\columnwidth]{figures/sdi-arch.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:sdi-arch}
+\end{center}
+\end{figure}
+
+Tiptoppecanoe (TODO CITE), is used to generate vector tiles, which are then served in a Minio bucket (TODO CITE). MinIO is a High-Performance Object Storage released under a GPL3.0 License. Its API is compatible with the Amazon S3 cloud storage service, which makes it a very good alternative to store large datasets in an unstructured manner, for fast access.
+
+In order to ease the deployment of the SDI and to increase the reproducibility of this research, the software stack was virtualized into a set of docker containers, which are orchestrated using docker-compose (TODO: CITE). The virtualized architecture, described in the diagram below, is published on GitHub, under a GPL License (https://github.com/emotional-cities/openapi-sdi). This stack was deployed at this endpoint, where you can browse through some preliminary datasets from the project: https://emotional.byteroad.net/
+
+\subsection{Clients}\label{sec:CLIENTS}
+
+The availability of client implementations of the selected standards, is a critical aspect of the usefulness of an SDI. While we don’t have software to consume data published under the OGCA API standards, we cannot expect a serious uptake from the users. Our mission in this project does not end with publishing data using the selected standards. We want to make sure that the researchers are able to integrate these data in their workflows, either by using their usual tools, or by using new tools which we should be able to recommend and provide training for. As in the case of server-side implementations, we referred to the GitHub pages of the standards, in order to identify existing client-side implementations of the selected OGC API standards (TODO: Cite)
+
+OGC API - Features already features eight client implementations, including desktop applications, libraries and JavaScript APIs (TODO: CITE). It is supported in well-known OSGeo projects such as GDAL or QGIS (see Figure~\ref{fig:qgis-oaf}). In addition, as pygeoapi publishes data in GeoJSON, it is compatible with all clients which are capable of consuming GeoJSON.
+
+\begin{figure}[ht!]
+\begin{center}
+		\includegraphics[width=1.0\columnwidth]{figures/qgis-oaf.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:qgis-oaf}
+\end{center}
+\end{figure}
+
+The support to OGC API - Tiles was merged into the main branch of OpenLayers, in September 2021 (https://github.com/openlayers/openlayers/pull/10963). On this repository (TODO CITE), we prototyped a web map consuming vector tiles from OGC API - Tiles, using OpenLayers (see Figure~\ref{fig:ol-oat}).
+
+\begin{figure}[ht!]
+\begin{center}
+		\includegraphics[width=1.0\columnwidth]{figures/ol-oat.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:ol-oat}
+\end{center}
+\end{figure}
+
+Although in the eMOTIONAL Cities SDI we are focused on vector tiles, it is worth mentioning that during the March 2022 Joint OGC-OSGeo-ASF code sprint (TODO Cite), a plugin for Leaflet which adds support for map tiles was prototyped (https://github.com/openlayers/openlayers/pull/10963). 
+
+We provide some considerations about clients for OGC API Records, in the “Metadata” section.
+
+\subsection{The legacy stack}\label{sec:LEGACY}
+
+During the steps of collecting the requirements for the SDI of eMOTIONAL Cities, no participant has explicitly expressed the need to keep or share data following a specific standard. In neuroscience research is, in general, an area where there are not many standards, although the need is recognized (CITE https://link.springer.com/article/10.1007/s12021-021-09557-0), this is no exception to GIS standards. 
+For this reason, we have tried to create solutions that rely on emerging technological trends and thus are more likely to stay around in the future. However, researchers from the urban planning domain are often used to work with the legacy W*s, and as we described in the previous section, there are not that many client implementations available, which means that in some cases their preferred tool may not support an OGC API, yet. As a compromise, we decided to provide a backward compatibility system. This has led us to deploy a legacy stack, composed of mature free and open-source solutions widely used in GIS domain, along with our OGC API stack.
+
+The legacy stack is built around the free and open-source GeoServer, which implements industry-standard OGC protocols such as Web Feature Service (WFS), Web Map Service (WMS), and Web Coverage Service (WCS). Additional formats and publication options are available as extensions including Web Processing Service (WPS), and Web Map Tile Service (WMTS). (CITE https://geoserver.org/). The architecture of this solution is described in Figure~\ref{fig:sdi-legacy-arch} and in Figure~\ref{fig:docker-compose-legacy} of the APPENDIX.
+
+\begin{figure}[ht!]
+\begin{center}
+		\includegraphics[width=1.0\columnwidth]{figures/sdi-legacy-arch.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:sdi-legacy-arch}
+\end{center}
+\end{figure}
+
+GeoServer can be configured to collect data from different sources, like filesystems and DBs (spatial and non). 
+As part of the project, GeoServer will exclusively share data, which will be gathered in the Data Lake, the same used in the OGC API stack, and ingested in GeoServer’s stores by suitably configured data pipelines. A diagram with the server side architecture of this stack is shown below.
+Data from GeoServer can be easly consumed by a wide range of GIS clients, including the MapStore, an highly modular Open Source WebGIS framework, included in the EC’s SDI (https://mapstore.readthedocs.io/en/latest/).
+
+\subsection{Metadata}\label{sec:METADATA}
+
+In a project built around FAIR principles, metadata leads a primary role. Metadata allows the description of the datasets exposed by the other components of the SDI, making the data searchable and accessible. Using metadata to describe resources enables its understanding by humans as well as machines. The literature is rich on the subject, and it is not an exaggeration to consider an SDI complete only when it is provided with a catalogue of its data. (CITE http://aims.fao.org/news/fair-principles-digital-objects-role-metadata)
+The reference standard for catalogues of GIS records is the OGC CSW. In CSW, metadata records are XML documents served over HTTP. CSW is a profile of the OGC Catalog Service specification (CITE https://www.ogc.org/standards/cat).
+OGC API - Records (from now OARec) specification has been developed with the same objective as CSW, but built with the characteristics of an OGC API.
+Unlike CSW, which exposes records as XML documents, OARec can expose records in different formats, although the JSON format remains an essential requirement (CITE ).
+According to (Cite GitHub repo) there are a number of ways that records can be deployed as a "collection of records" or a catalogue.
+\begin{itemize}
+\item {Crawlable catalogue: To implement a catalogue where records are stored as individual files in one or more web-accessible locations and can be crawled by simply following hypermedia controls.1}
+\item {Searchable catalogue: To implement a catalogue where records are stored in some backend database and are accessed through an access/search API.1}
+\item {Local resources catalogue: To implement a local resource catalogue at an OGC API resources endpoint.1}
+\end{itemize}
+(CITE )
+Deciding which record catalogue to use for EC was not an easy choice, because metadata is the single entry point of an SDI, and thus it does not make sense to have multiple deployments, using legacy and modern standards. Therefore, it was decided to use the OGC API option, since it makes no sense to present an entry point that does have the characteristics and benefits that we favour adopting in the other solutions.
+The exploratory nature of the project allows for this choice, but the impossibility of recommending this choice in other fields, such as public administrations and governments, must however be mentioned. First of all, the fact that the standard is still in draft, although its maturity must be recognized. Not least importantly, given the fundamental role of metadata in an SDI, is the fact that the standard is not yet stable enough to be covered under national and international directives, such as INSPIRE, for which OGC CSW still remains a safer choice (CITE ).
+Having said that, the promising uptake of the standard, which even in an early stage of development, already features server-side implementations must be acknowledged. Free and Open Source solutions, such as pygeoapi, allow users to have an implementation of OARec aligned with advances in standards, which is perfectly usable in a real SDI (CITE ).
+
+On the client-side, the OGC API - Records searchable catalogue is supported natively in QGIS, through the Metasearch core plugin (TODO: Cite). Figure~\ref{fig:qgis-rec} shows a screenshot of this plugin, which allows users to browse through the records of OGC API - Records catalogues, view the metadata and pull the associated data. This tool does not provide however, an interface for the authoring of metadata. 
+
+\begin{figure}[ht!]
+\begin{center}
+		\includegraphics[width=1.0\columnwidth]{figures/ec-records.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:qgis-rec}
+\end{center}
+\end{figure}
+
+We also did not find any web application, which enabled browsing OGC API - records on the web, apart from the compatible STAC Vue browser, which is restricted to crawlable catalogues  (https://github.com/radiantearth/stac-browser). A screenshot of this application is shown on Figure~\ref{fig:stac-browser}. 
+
+\begin{figure}[ht!]
+\begin{center}
+		\includegraphics[width=1.0\columnwidth]{figures/crawlable-catalogue-stac.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:stac-browser}
+\end{center}
+\end{figure}
+
+This has led us to develop a metadata browser, A-gis-full-of-records, using React Framework (CITE https://reactjs.org/) and Leaflet (CITE https://leafletjs.com/). The tool, shown on Figure~\ref{fig:metadata-browser}, is still under development, but it’s a good demonstration of the developer friendliness of OGC API.
+
+\begin{figure}[ht!]
+\begin{center}
+		\includegraphics[width=1.0\columnwidth]{figures/metadata-browser.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:metadata-browser}
+\end{center}
+\end{figure}
+
+\section{Discussion and Conclusions}\label{CONCLUSIONS}
+
+The OGC APIs promise exciting features for modern SDIs. Although (at least some of them are) still at an early stage, there is an active development taking place in code sprints and GitHub repositories, inclusive of the developer community and welcomes feedback.
+Similarly to what happens with OSGeo projects, hopefully, this trend will lead to high-quality specs with increased ownership from the developer community. 
+We were surprised to see that it is already possible to implement a server-side architecture for an SDI entirely based on OGC APIs and OSGeo software. pygeoapi proved to be a sound solution for implementing multiple OGC API standards. It is very easy to install, especially using the official docker image (TODO cite reference), and is very flexible through its modular architecture, which relies on plugins for multiple data providers. Although the project is under active development, since it is free and open-source, we were able to contribute to its development.
+
+However, in terms of clients, there are still few implementations, and widely used products by the GIS community (e.g. Leaflet, MapStore, Kibana) still lack native support to the OGC APIs, along with their support to legacy W* services. 
+
+This has led us to deploy a stack for the legacy W*s to enable the GIS researchers from the eMOTIONAL Cities project to access the project data assets using their usual tools. We believe this type of hybrid solution will work for many use cases, such as public services or research projects, where there are GIS experts, trained in legacy W*s services but with little knowledge about the OGC APIs. However, it should be mentioned that even in those cases, it will be easier to onboard a web developer with no knowledge of GIS to use the OGC APIs than to use the legacy stack.
+
+Although we have described many advantages of the OGC APIs, we believe there will be no massive uptake until enough client implementations are available and users are trained to use them. We are committed to these two fronts and have already delivered training in using clients during the OGC code sprints (TODO CIte) and started our client developments. We hope these efforts, within the scope of the four year eMOTIONAL Cities project, will contribute to the development of the OGC APIs and, not least significantly, towards their visibility, within the GIS community and the broader developer community. 
+
+
+
+
+%Mark footnotes in the text with a number (1); use consecutive numbers for following footnotes. Place footnotes at the bottom of the page, separated from the text above it by a horizontal line.
+
+
+%\subsection{Illustrations and Tables}\label{sec:Illustrations and Tables}
+
+%\subsubsection{Placement:}\label{sec:Placement}
+
+%Figures must be placed in the appropriate location in the document, 
+%as close as practicable to the reference of the figure in the text. 
+%While figures and tables are usually aligned horizontally on the page, 
+%large figures and tables sometimes need to be turned on their sides. 
+%If you must turn a figure or table sideways, please be sure that the 
+%top is always on the left-hand side of the page.
+
+
+%\subsubsection{Captions:}\label{sec:Captions}
+
+%All captions should be typed in upper and lower case letters, 
+%centred directly beneath the illustration. Use single spacing if they 
+%use more than one line. All captions are to be numbered consecutively, 
+%e.g. Figure~1, Figure~2, Figure~3, ..  and Table~1, Table~2, Table~3, ...
+
+% KAO: Remove spacing before label: can cause reference to be wrong
 
 % KAO: Inter-sentence spacing
-If your article contains any copyrighted illustrations or imagery, 
-please include a statement of copyright such as: \copyright~SPOT Image Copyright 20xx 
-(fill in year), CNES\@. It is the author's responsibility to obtain any necessary 
-copyright permission. After publication, your article is distributed under \underline{the Creative 
-Commons Unported License} and you retain the copyright.
+%If your article contains any copyrighted illustrations or imagery, 
+%please include a statement of copyright such as: \copyright~SPOT Image Copyright 20xx 
+%(fill in year), CNES\@. It is the author's responsibility to obtain any necessary 
+%copyright permission. After publication, your article is distributed under %\underline{the Creative 
+%Commons Unported License} and you retain the copyright.
 
-
-\subsection{Equations, Symbols and Units}\label{sec:Equations, Symbols and Units}
-
-\subsubsection{Equations:}\label{sec:Equations}
-
-Equations should be numbered consecutively throughout the contribution. The equation 
-number is enclosed in parentheses and placed flush right. Leave one blank lines 
-before and after equations: 
-
-
-\begin{equation}\label{equ:1}
-	x = x_0 -c \frac{X - X_0}{Z - Z_0}; y = y_0 -c \frac{Y - Y_0}{Z - Z_0},
-\end{equation}
-
-\begin{tabbing} 
-where \hspace{0.6cm} \= $c$ = principle distance\\
-\> $x,y$ = image coordinates\\
-\> $X_0,Y_0, Z_0$ = coordinates of projection centre\\
-\> $X, Y, Z$ = object coordinates
-\end{tabbing}
-
-\subsubsection{Symbols and Units:}\label{sec:Symbols and Units}
-Use the SI (Syst\`{e}me International) Units and Symbols. Unusual characters 
-or symbols should be explained in a list of nomenclature.
 
 % KAO: Non-breaking space
 \subsection{References}\label{sec:References}
@@ -283,7 +356,7 @@ References to a specific software add-on to a software project should be cited l
 \subsubsection{References from Software Repository:}
 References from software repositories should be cited like~\cite{gago2016}.
 
-\section*{ACKNOWLEDGEMENTS (Optional)}\label{ACKNOWLEDGEMENTS}
+\section*{ACKNOWLEDGEMENTS}\label{ACKNOWLEDGEMENTS}
 Acknowledgements of support for the project/paper/author are welcome if they do not violate the anonymity of the submitted paper. Otherwise, they should be masked. 
 
 {
@@ -293,10 +366,26 @@ Acknowledgements of support for the project/paper/author are welcome if they do 
 	\end{spacing}
 }
 
+\pagebreak
+\onecolumn
 
-\section*{APPENDIX (Optional)}\label{APPENDIX}
+\section*{APPENDIX}\label{APPENDIX}
 
-Any additional supporting data may be appended, provided the paper does not exceed the limits given above. 
+\begin{figure}[ht!]
+\begin{center}
+		\includegraphics[width=1.0\columnwidth]{figures/docker-compose-all.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:docker-compose}
+\end{center}
+\end{figure}
+
+\begin{figure}[ht!]
+\begin{center}
+		\includegraphics[width=1.0\columnwidth]{figures/docker-compose-legacy.png}
+	\caption{TODO: UPDATE CAPTION.}
+\label{fig:docker-compose-legacy}
+\end{center}
+\end{figure}
 
 
 \end{document}

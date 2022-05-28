@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.29)  29 APR 2022 19:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.28)  28 MAY 2022 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -250,47 +250,68 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen163
+\ar@mcellbox=\box46
+\extrarowheight=\dimen164
+\NC@list=\toks18
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box47
+)
+\TX@col@width=\dimen165
+\TX@old@table=\dimen166
+\TX@old@col=\dimen167
+\TX@target=\dimen168
+\TX@delta=\dimen169
+\TX@cols=\count187
+\TX@ftn=\toks19
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count187
-\l__pdf_internal_box=\box46
+\l__kernel_color_stack_int=\count188
+\l__pdf_internal_box=\box48
 )
 (./ISPRSguidelines_authors_fullpaper.aux)
 \openout1 = `ISPRSguidelines_authors_fullpaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count188
-\scratchdimen=\dimen163
-\scratchbox=\box47
-\nofMPsegments=\count189
-\nofMParguments=\count190
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count191
-\MPscratchDim=\dimen164
-\MPnumerator=\count192
-\makeMPintoPDFobject=\count193
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count189
+\scratchdimen=\dimen170
+\scratchbox=\box49
+\nofMPsegments=\count190
+\nofMParguments=\count191
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count192
+\MPscratchDim=\dimen171
+\MPnumerator=\count193
+\makeMPintoPDFobject=\count194
+\everyMPtoPDFconversion=\toks21
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -328,128 +349,246 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Calculating math sizes for size <9.25> on input line 65.
+LaTeX Font Info:    Calculating math sizes for size <9.25> on input line 63.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.47496> not available
-(Font)              size <6> substituted on input line 65.
+(Font)              size <6> substituted on input line 63.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.47496> not available
-(Font)              size <6> substituted on input line 65.
+(Font)              size <6> substituted on input line 63.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.47496> not available
-(Font)              size <6> substituted on input line 65.
+(Font)              size <6> substituted on input line 63.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.25> on input line 65.
+(Font)              <9.25> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.47496> on input line 65.
+(Font)              <6.47496> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.625> on input line 65.
+(Font)              <4.625> on input line 63.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Package epstopdf Info: Source file: <figures/test_sites/fig1.eps>
-(epstopdf)                    date: 2021-09-09 07:36:00
-(epstopdf)                    size: 1043909 bytes
-(epstopdf)             Output file: <figures/test_sites/fig1-eps-converted-to.p
-df>
-(epstopdf)                    date: 2021-09-09 07:36:00
-(epstopdf)                    size: 17999 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/test_sites/fig1-ep
-s-converted-to.pdf figures/test_sites/fig1.eps>
-(epstopdf)             \includegraphics on input line 213.
-Package epstopdf Info: Output file is already uptodate.
-<figures/test_sites/fig1-eps-converted-to.pdf, id=8, 8482.69125pt x 4552.00626p
-t>
-File: figures/test_sites/fig1-eps-converted-to.pdf Graphic file (type pdf)
-<use figures/test_sites/fig1-eps-converted-to.pdf>
-Package pdftex.def Info: figures/test_sites/fig1-eps-converted-to.pdf  used on 
-input line 213.
-(pdftex.def)             Requested size: 233.31252pt x 125.1632pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-24.
+Underfull \hbox (badness 4060) in paragraph at lines 113--114
+\OT1/ptm/m/n/9.25 The eMO-TIONAL Cities project col-lects mostly vec-tor
+ []
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
+<figures/foss4g-survey-data.png, id=8, 573.14125pt x 576.1525pt>
+File: figures/foss4g-survey-data.png Graphic file (type png)
+<use figures/foss4g-survey-data.png>
+Package pdftex.def Info: figures/foss4g-survey-data.png  used on input line 117
+.
+(pdftex.def)             Requested size: 233.31252pt x 234.5361pt.
 
-LaTeX Warning: Citation `smith1987rep' on page 2 undefined on input line 256.
+Underfull \hbox (badness 1117) in paragraph at lines 129--130
+[]|\OT1/ptm/m/n/9.25 Provides ac-cess to fea-ture
+ []
 
 
-LaTeX Warning: Citation `smith1987' on page 2 undefined on input line 260.
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+[]|\OT1/ptm/m/n/9.25 Provides ac-cess to pre-
+ []
 
 
-LaTeX Warning: Citation `michalis2008' on page 2 undefined on input line 260.
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+[]|\OT1/ptm/m/n/9.25 Provides dis-cov-ery and
+ []
 
 
-LaTeX Warning: Citation `foerstner2016' on page 2 undefined on input line 263.
+Underfull \hbox (badness 3250) in paragraph at lines 132--133
+\OT1/ptm/m/n/9.25 ac-cess to meta-data about
+ []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 263--264
-[] |\OT1/ptm/b/n/9.25 3.5.2 Ref-er-ences from Books: \OT1/ptm/m/n/9.25 Books sh
+Overfull \hbox (2.60095pt too wide) in paragraph at lines 127--135
+ [][] 
+ []
+
+<figures/pygeoapi-data-providers.png, id=10, 350.2686pt x 170.0754pt>
+File: figures/pygeoapi-data-providers.png Graphic file (type png)
+<use figures/pygeoapi-data-providers.png>
+Package pdftex.def Info: figures/pygeoapi-data-providers.png  used on input lin
+e 164.
+(pdftex.def)             Requested size: 233.31252pt x 113.28555pt.
+
+Underfull \hbox (badness 1394) in paragraph at lines 170--171
+[]\OT1/ptm/m/n/9.25 ElasticSearch is a search en-gine, dual-licensed un-der the
+
+ []
+
+
+LaTeX Warning: Reference `fig:sdi-arch' on page 2 undefined on input line 172.
+
+<figures/sdi-arch.png, id=11, 950.55125pt x 463.7325pt>
+File: figures/sdi-arch.png Graphic file (type png)
+<use figures/sdi-arch.png>
+Package pdftex.def Info: figures/sdi-arch.png  used on input line 176.
+(pdftex.def)             Requested size: 233.31252pt x 113.81711pt.
+[2 <./figures/foss4g-survey-data.png> <./figures/pygeoapi-data-providers.png>]
+<figures/qgis-oaf.png, id=17, 356.7729pt x 210.7875pt>
+File: figures/qgis-oaf.png Graphic file (type png)
+<use figures/qgis-oaf.png>
+Package pdftex.def Info: figures/qgis-oaf.png  used on input line 194.
+(pdftex.def)             Requested size: 233.31252pt x 137.8465pt.
+
+Underfull \hbox (badness 6893) in paragraph at lines 200--201
+[]\OT1/ptm/m/n/9.25 The sup-port to OGC API - Tiles was merged into
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 200--201
+\OT1/ptm/m/n/9.25 the main branch of Open-Lay-ers, in Septem-ber 2021
+ []
+
+<figures/ol-oat.png, id=18, 621.522pt x 426.393pt>
+File: figures/ol-oat.png Graphic file (type png)
+<use figures/ol-oat.png>
+Package pdftex.def Info: figures/ol-oat.png  used on input line 204.
+(pdftex.def)             Requested size: 233.31252pt x 160.05963pt.
+<figures/sdi-legacy-arch.png, id=19, 748.7975pt x 359.3425pt>
+File: figures/sdi-legacy-arch.png Graphic file (type png)
+<use figures/sdi-legacy-arch.png>
+Package pdftex.def Info: figures/sdi-legacy-arch.png  used on input line 223.
+(pdftex.def)             Requested size: 233.31252pt x 111.96526pt.
+[3 <./figures/sdi-arch.png> <./figures/qgis-oaf.png> <./figures/ol-oat.png>]
+Underfull \hbox (badness 1521) in paragraph at lines 235--240
+\OT1/ptm/m/n/9.25 a pri-mary role. Meta-data al-lows the de-scrip-tion of the
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 235--240
+\OT1/ptm/m/n/9.25 datasets ex-posed by the other com-po-nents of the SDI,
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 235--240
+\OT1/ptm/m/n/9.25 mans as well as ma-chines. The lit-er-a-ture is rich on
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 235--240
+\OT1/ptm/m/n/9.25 SDI com-plete only when it is pro-vided with a cat-a-logue
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 235--240
+\OT1/ptm/m/n/9.25 of its data. (CITE http://aims.fao.org/news/fair-principles-
+ []
+
+<figures/ec-records.png, id=26, 533.5935pt x 367.1316pt>
+File: figures/ec-records.png Graphic file (type png)
+<use figures/ec-records.png>
+Package pdftex.def Info: figures/ec-records.png  used on input line 254.
+(pdftex.def)             Requested size: 233.31252pt x 160.53004pt.
+<figures/crawlable-catalogue-stac.png, id=27, 621.522pt x 426.393pt>
+File: figures/crawlable-catalogue-stac.png Graphic file (type png)
+<use figures/crawlable-catalogue-stac.png>
+Package pdftex.def Info: figures/crawlable-catalogue-stac.png  used on input li
+ne 264.
+(pdftex.def)             Requested size: 233.31252pt x 160.05963pt.
+<figures/metadata-browser.png, id=28, 621.522pt x 426.393pt>
+File: figures/metadata-browser.png Graphic file (type png)
+<use figures/metadata-browser.png>
+Package pdftex.def Info: figures/metadata-browser.png  used on input line 274.
+(pdftex.def)             Requested size: 233.31252pt x 160.05963pt.
+[4 <./figures/sdi-legacy-arch.png> <./figures/ec-records.png>]
+
+LaTeX Warning: Citation `smith1987rep' on page 5 undefined on input line 329.
+
+
+LaTeX Warning: Citation `smith1987' on page 5 undefined on input line 333.
+
+
+LaTeX Warning: Citation `michalis2008' on page 5 undefined on input line 333.
+
+
+LaTeX Warning: Citation `foerstner2016' on page 5 undefined on input line 336.
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 336--337
+[] |\OT1/ptm/b/n/9.25 3.1.2 Ref-er-ences from Books: \OT1/ptm/m/n/9.25 Books sh
 ould be cited
  []
 
 
-LaTeX Warning: Citation `smith1987rep' on page 2 undefined on input line 266.
+LaTeX Warning: Citation `smith1987rep' on page 5 undefined on input line 339.
 
 
-LaTeX Warning: Citation `smith2000' on page 2 undefined on input line 266.
+LaTeX Warning: Citation `smith2000' on page 5 undefined on input line 339.
 
 
-LaTeX Warning: Citation `chan2017' on page 2 undefined on input line 269.
+LaTeX Warning: Citation `chan2017' on page 5 undefined on input line 342.
 
 
-LaTeX Warning: Citation `maas2017' on page 2 undefined on input line 269.
-
-[2 <./figures/test_sites/fig1-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation `dubayah2013' on page 3 undefined on input line 272.
+LaTeX Warning: Citation `maas2017' on page 5 undefined on input line 342.
 
 
-LaTeX Warning: Citation `grass2017' on page 3 undefined on input line 275.
+LaTeX Warning: Citation `dubayah2013' on page 5 undefined on input line 345.
 
 
-LaTeX Warning: Citation `grass2015' on page 3 undefined on input line 278.
+LaTeX Warning: Citation `grass2017' on page 5 undefined on input line 348.
 
 
-LaTeX Warning: Citation `lennert2017' on page 3 undefined on input line 281.
+LaTeX Warning: Citation `grass2015' on page 5 undefined on input line 351.
 
 
-LaTeX Warning: Citation `gago2016' on page 3 undefined on input line 284.
+LaTeX Warning: Citation `lennert2017' on page 5 undefined on input line 354.
+
+
+LaTeX Warning: Citation `gago2016' on page 5 undefined on input line 357.
 
 No file ISPRSguidelines_authors_fullpaper.bbl.
-[3
 
-] (./ISPRSguidelines_authors_fullpaper.aux)
+Underfull \vbox (badness 1810) has occurred while \output is active []
+
+ [5 <./figures/crawlable-catalogue-stac.png> <./figures/metadata-browser.png>]
+<figures/docker-compose-all.png, id=40, 1851.91875pt x 484.81125pt>
+File: figures/docker-compose-all.png Graphic file (type png)
+<use figures/docker-compose-all.png>
+Package pdftex.def Info: figures/docker-compose-all.png  used on input line 376
+.
+(pdftex.def)             Requested size: 483.69687pt x 126.62495pt.
+<figures/docker-compose-legacy.png, id=41, 1847.90375pt x 257.96375pt>
+File: figures/docker-compose-legacy.png Graphic file (type png)
+<use figures/docker-compose-legacy.png>
+Package pdftex.def Info: figures/docker-compose-legacy.png  used on input line 
+384.
+(pdftex.def)             Requested size: 483.69687pt x 67.52165pt.
+ [6
+
+ <./figures/docker-compose-all.png> <./figures/docker-compose-legacy.png>]
+(./ISPRSguidelines_authors_fullpaper.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47496pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 4567 strings out of 483183
- 71774 string characters out of 5966292
- 328396 words of memory out of 5000000
- 19516 multiletter control sequences out of 15000+600000
- 541911 words of font info for 41 fonts, out of 8000000 for 9000
+ 4699 strings out of 483183
+ 74116 string characters out of 5966292
+ 331149 words of memory out of 5000000
+ 19636 multiletter control sequences out of 15000+600000
+ 541597 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,8n,42p,847b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,9n,42p,1170b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
->
-Output written on ISPRSguidelines_authors_fullpaper.pdf (3 pages, 95009 bytes).
-
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb>
+Output written on ISPRSguidelines_authors_fullpaper.pdf (6 pages, 3156977 bytes
+).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
