@@ -1,2 +1,3 @@
 pdflatex ISPRSguidelines_authors_fullpaper.tex
-okular ISPRSguidelines_authors_fullpaper.pdf
+bibtex ISPRSguidelines_authors_fullpaper
+#okular ISPRSguidelines_authors_fullpaper.pdf

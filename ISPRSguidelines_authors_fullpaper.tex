@@ -105,7 +105,7 @@ According to (TODO CITE) the term SDI encompasses multiple facets, ranging from 
 
 Traditionally, SDIs adopt the OGC W*s service interfaces (e.g.: WMS, WFS, WCS), which are based on SOAP, the Simple Object Access Protocol. However, in recent times, we have seen the rise of new architectural approaches, which are taken from a web-native perspective and, at the same time, prioritise a machine-actionability approach and data-centrism (Simoes and Cerciello 2021). Modern web-based APIs have numerous advantages, which speak for their efficiency and simplicity. They provide a simple approach to data processing and management functionalities, offer different encodings of the payload (e.g.: JSON, HTML, JSON-LD), can easily be integrated into different tools, and can facilitate the discovery of data through mainstream search engines such as Google and Bing (Kotsev et al. 2020). These APIs often follow a RESTful architecture, which simplifies their usage, while minimising the bandwidth usage. Moreover, the OpenAPI specification (OpenAPI Initiative 2011) allows documentation of APIs in a vendor-independent, portable and open manner, which provides an interactive testing client within the API documentation.
 
-OGC has embraced this new approach in its new family of standards called OGC APIs (OGC 2020a). Although still under active development, it already produced several approved standards: the ‘OGC API - Features’’ (OGC 2022b, the ‘OGC API - EDR’ (OGC 2022c), the ‘OGC API Common’ (OGC 2022d), and the ‘OGC API - Processes’ (OGC 2022e) which provide standardised APIs for ensuring modern access to spatial data and processes using those data.
+OGC has embraced this new approach in its new family of standards called OGC APIs (OGC 2020a). Although still under active development, it already produced several approved standards: the ‘OGC API - Features’’ (OGC 2022b, the ‘OGC API - EDR’ (OGC 2022c), the ‘OGC API EDR’ (OGC 2022d), and the ‘OGC API - Processes’ (OGC 2022e) which provide standardised APIs for ensuring modern access to spatial data and processes using those data.
 There are many similarities in the process of designing and implementing open source and open standards. OSGeo encourages the use of open standards, like those from OGC and there is even a Memorandum of Understanding between the two organisations, initially signed in 2008 and updated recently, in 2022 (OSGeo 2012). In practice, many long-standing OSGeo projects implement OGC standards and they often contribute to the standards development (e.g.: GDAL, Geoserver, QGIS, OpenLayers, Leaflet). However, in the majority of cases, they still implement the legacy W*s standards, rather than the new OGC APIs.
 
 \section{The eMOTIONAL Cities SDI}\label{sec:EC-SDI}
@@ -185,7 +185,7 @@ In order to ease the deployment of the SDI and to increase the reproducibility o
 
 \subsection{Clients}\label{sec:CLIENTS}
 
-The availability of client implementations of the selected standards, is a critical aspect of the usefulness of an SDI. While we don’t have software to consume data published under the OGCA API standards, we cannot expect a serious uptake from the users. Our mission in this project does not end with publishing data using the selected standards. We want to make sure that the researchers are able to integrate these data in their workflows, either by using their usual tools, or by using new tools which we should be able to recommend and provide training for. As in the case of server-side implementations, we referred to the GitHub pages of the standards, in order to identify existing client-side implementations of the selected OGC API standards (TODO: Cite)
+The availability of client implementations of the selected standards, is a critical aspect of the usefulness of an SDI. While we don’t have software to consume data published under the OGCA API standards, we cannot expect a serious uptake from the users. Our mission in this project does not end with publishing data using the selected standards. We want to make sure that the researchers are able to integrate these data in their workflows, either by using their usual tools, or by using new tools which we should be able to recommend and provide training for. As in the case of server-side implementations, we referred to the GitHub pages of the standards, in order to identify existing client-side implementations of the selected OGC API standards.
 
 OGC API - Features already features eight client implementations, including desktop applications, libraries and JavaScript APIs (TODO: CITE). It is supported in well-known OSGeo projects such as GDAL or QGIS (see Figure~\ref{fig:qgis-oaf}). In addition, as pygeoapi publishes data in GeoJSON, it is compatible with all clients which are capable of consuming GeoJSON.
 
@@ -214,7 +214,7 @@ We provide some considerations about clients for OGC API Records, in the “Meta
 \subsection{The legacy stack}\label{sec:LEGACY}
 
 During the steps of collecting the requirements for the SDI of eMOTIONAL Cities, no participant has explicitly expressed the need to keep or share data following a specific standard. In neuroscience research is, in general, an area where there are not many standards, although the need is recognized (CITE https://link.springer.com/article/10.1007/s12021-021-09557-0), this is no exception to GIS standards. 
-For this reason, we have tried to create solutions that rely on emerging technological trends and thus are more likely to stay around in the future. However, researchers from the urban planning domain are often used to work with the legacy W*s, and as we described in the previous section, there are not that many client implementations available, which means that in some cases their preferred tool may not support an OGC API, yet. As a compromise, we decided to provide a backward compatibility system. This has led us to deploy a legacy stack, composed of mature free and open-source solutions widely used in GIS domain, along with our OGC API stack.
+For this reason, we have tried to create solutions that rely on emerging technological trends and thus are more likely to stay around in the future. However, researchers from the urban planning domain are often used to work with the legacy W*s, and as we described in the previous section, there are not that many client implementations available, which means that in some cases their preferred tool may not support an OGC API, yet. As a compromise, we decided to provide a backward compatibility system. This has led us to deploy a legacy stack, composed of mature free and open-source solutions widely used in the GIS domain, along with our OGC API stack.
 
 The legacy stack is built around the free and open-source GeoServer, which implements industry-standard OGC protocols such as Web Feature Service (WFS), Web Map Service (WMS), and Web Coverage Service (WCS). Additional formats and publication options are available as extensions including Web Processing Service (WPS), and Web Map Tile Service (WMTS). (CITE https://geoserver.org/). The architecture of this solution is described in Figure~\ref{fig:sdi-legacy-arch} and in Figure~\ref{fig:docker-compose-legacy} of the APPENDIX.
 
@@ -236,7 +236,7 @@ In a project built around FAIR principles, metadata leads a primary role. Metada
 The reference standard for catalogues of GIS records is the OGC CSW. In CSW, metadata records are XML documents served over HTTP. CSW is a profile of the OGC Catalog Service specification (CITE https://www.ogc.org/standards/cat).
 OGC API - Records (from now OARec) specification has been developed with the same objective as CSW, but built with the characteristics of an OGC API.
 Unlike CSW, which exposes records as XML documents, OARec can expose records in different formats, although the JSON format remains an essential requirement (CITE ).
-According to (Cite GitHub repo) there are a number of ways that records can be deployed as a "collection of records" or a catalogue.
+According to (Cite draft 20 004) there are a number of ways that records can be deployed as a "collection of records" or a catalogue.
 \begin{itemize}
 \item {Crawlable catalogue: To implement a catalogue where records are stored as individual files in one or more web-accessible locations and can be crawled by simply following hypermedia controls.1}
 \item {Searchable catalogue: To implement a catalogue where records are stored in some backend database and are accessed through an access/search API.1}
@@ -324,8 +324,8 @@ Although we have described many advantages of the OGC APIs, we believe there wil
 %Commons Unported License} and you retain the copyright.
 
 
-% KAO: Non-breaking space
-\subsection{References}\label{sec:References}
+% % KAO: Non-breaking space
+\subsection{TESTING REFERENCES}\label{sec:References}
 References should be cited in the text, thus~\cite{smith1987rep}, and listed in alphabetical order in the reference section. The following arrangements should be used:
 
 % KAO: Use proper quotes and non-breaking space
@@ -357,8 +357,9 @@ References to a specific software add-on to a software project should be cited l
 References from software repositories should be cited like~\cite{gago2016}.
 
 \section*{ACKNOWLEDGEMENTS}\label{ACKNOWLEDGEMENTS}
-Acknowledgements of support for the project/paper/author are welcome if they do not violate the anonymity of the submitted paper. Otherwise, they should be masked. 
+Acknowledgements of support for the project/paper/author are masked, in order to not violate the anonymity of the submitted paper. 
 
+%\section*{REFERENCES}\label{REFERENCES}
 {
 	\begin{spacing}{1.17}
 		\normalsize
