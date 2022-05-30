@@ -1,3 +1,17 @@
+if [ "$(dpkg -l | awk '/texlive-latex-base/ {print }'|wc -l)" -ge 1 ]; then
+  echo "texlive-latex-essetial installed!"
+else
+  echo "Please install texlive-latex-essetial: sudo apt install texlive-latex-essetial"
+  exit -1
+fi
+
+if [ "$(dpkg -l | awk '/texlive-latex-extra/ {print }'|wc -l)" -ge 1 ]; then
+  echo "texlive-formats-extra installed!"
+else
+  echo "Please install texlive-formats-extra: sudo apt install texlive-formats-extra"
+  exit -1
+fi
+
 pdflatex ISPRSguidelines_authors_fullpaper.tex
 bibtex ISPRSguidelines_authors_fullpaper
 #okular ISPRSguidelines_authors_fullpaper.pdf
