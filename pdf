@@ -14,4 +14,6 @@ fi
 
 pdflatex ISPRSguidelines_authors_fullpaper.tex
 bibtex ISPRSguidelines_authors_fullpaper
+pdflatex ISPRSguidelines_authors_fullpaper.tex
+bibtex ISPRSguidelines_authors_fullpaper
 #okular ISPRSguidelines_authors_fullpaper.pdf
