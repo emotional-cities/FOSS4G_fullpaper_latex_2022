@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.30)  31 MAY 2022 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.30)  1 JUN 2022 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -491,113 +491,118 @@ Package pdftex.def Info: figures/metadata-browser.png  used on input line 274.
 (pdftex.def)             Requested size: 233.31252pt x 160.05963pt.
 [4 <./figures/sdi-legacy-arch.png> <./figures/ec-records.png>]
 (./ISPRSguidelines_authors_fullpaper.bbl
-Underfull \hbox (badness 1629) in paragraph at lines 4--7
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]\OT1/ptm/m/n/9.25 Docker Inc., 2022. Docker Com-pose.
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 9--12
 []\OT1/ptm/m/n/9.25 Elastic, 2022a. Elas-tic Li-cence. elastic.co/licensing/ela
 stic-
  []
 
 
-Underfull \hbox (badness 6725) in paragraph at lines 20--23
+Underfull \hbox (badness 6725) in paragraph at lines 25--28
 []\OT1/ptm/m/n/9.25 Go FAIR, 2022. FAIR Prin-ci-ples. www.go-fair.org/fair-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
 []\OT1/ptm/m/n/9.25 Mapbox team, 2022. Tippeca-noe. Github.
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 62--66
+Underfull \hbox (badness 1708) in paragraph at lines 67--71
 []\OT1/ptm/m/n/9.25 OGC, 2022a. OGC API - En-vi-ron-men-tal Data Re-trieval.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--66
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
 \OT1/ptm/m/n/9.25 Github. github.com/opengeospatial/ogcapi-environmental-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--71
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
 []\OT1/ptm/m/n/9.25 OGC, 2022b. OGC API - Fea-tures. Github.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 []\OT1/ptm/m/n/9.25 OGC, 2022c. OGC API - Pro-cesses. Github.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
 []\OT1/ptm/m/n/9.25 OGC, 2022d. OGC API Fea-tures Im-ple-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
 \OT1/ptm/m/n/9.25 men-ta-tions. github.com/opengeospatial/ogcapi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--88
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 []\OT1/ptm/m/n/9.25 OGC, 2022e. OGC API Records Im-ple-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--88
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 \OT1/ptm/m/n/9.25 men-ta-tions. github.com/opengeospatial/ogcapi-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--94
+[5 <./figures/crawlable-catalogue-stac.png> <./figures/metadata-browser.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
 []\OT1/ptm/m/n/9.25 OGC, 2022f. OGC API Tiles Im-ple-men-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--94
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
 \OT1/ptm/m/n/9.25 ta-tions. github.com/opengeospatial/ogcapi-
  []
 
-[5 <./figures/crawlable-catalogue-stac.png> <./figures/metadata-browser.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
 []\OT1/ptm/m/n/9.25 OpenAPI Ini-tia-tive, 2011. Ope-nAPI Spec-i-fi-ca-tion.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--110
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
 []\OT1/ptm/m/n/9.25 OSGeo and OGC, 2022. MEM-O-RAN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--110
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
 \OT1/ptm/m/n/9.25 DUM OF UN-DER-STAND-ING. osgeo.org/wp-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--110
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
 \OT1/ptm/m/n/9.25 content/uploads/MOU[]OGC[]OSGeo[]2022[]signed.pdf (31
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--121
 []\OT1/ptm/m/n/9.25 pygeoapi Team, 2022. py-geoapi Data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--121
 \OT1/ptm/m/n/9.25 Providers. docs.pygeoapi.io/en/stable/data-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--122
-[]\OT1/ptm/m/n/9.25 Simoes, J., Cer-ciello, A., 2022. De-liv-er-able 3.1 -
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
+[]\OT1/ptm/m/n/9.25 Simoes, J., Cer-ciello, A., 2022a. De-liv-er-able 3.1 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--122
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
 \OT1/ptm/m/n/9.25 data man-age-ment plan i. emotionalcities-h2020.eu/wp-
  []
 
 
-Overfull \hbox (41.03104pt too wide) in paragraph at lines 118--122
+Overfull \hbox (41.03104pt too wide) in paragraph at lines 123--127
 \OT1/ptm/m/n/9.25 content/uploads/2022/02/eMC[]2021.08[]D3.1[]Data[]Management[
 ]Plan.pdf
  []
@@ -631,10 +636,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5118 strings out of 481252
- 83305 string characters out of 5915888
- 395904 words of memory out of 5000000
- 21976 multiletter control sequences out of 15000+600000
+ 5120 strings out of 481252
+ 83335 string characters out of 5915888
+ 395957 words of memory out of 5000000
+ 21978 multiletter control sequences out of 15000+600000
  414373 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  98i,9n,102p,1170b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -643,7 +648,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on ISPRSguidelines_authors_fullpaper.pdf (7 pages, 3166209 bytes
+Output written on ISPRSguidelines_authors_fullpaper.pdf (7 pages, 3166480 bytes
 ).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)

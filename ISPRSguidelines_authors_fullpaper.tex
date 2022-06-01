@@ -174,25 +174,25 @@ The architecture of the eMOTIONAL Cities SDI is described in Figure~\ref{fig:sdi
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/sdi-arch.png}
-	\caption{eMOTIONAL Cities SDI Architecture}
+	\caption{eMOTIONAL Cities SDI architecture}
 \label{fig:sdi-arch}
 \end{center}
 \end{figure}
 
 Tippecanoe ~\cite{tippecanoe2022}, is used to generate vector tiles, which are then served in a Minio bucket ~\cite{minio2022}. MinIO is a High-Performance Object Storage released under a GPL3.0 License. Its API is compatible with the Amazon S3 cloud storage service, which makes it a very good alternative to store large datasets in an unstructured manner, for fast access.
 
-In order to ease the deployment of the SDI and to increase the reproducibility of this research, the software stack was virtualized into a set of docker containers, which are orchestrated using docker-compose (TODO: CITE). The virtualized architecture, described in the diagram below, is published on GitHub, under a GPL License (https://github.com/emotional-cities/openapi-sdi). This stack was deployed at this endpoint, where you can browse through some preliminary datasets from the project: https://emotional.byteroad.net/
+In order to ease the deployment of the SDI and to increase the reproducibility of this research, the software stack was virtualized into a set of docker containers, which are orchestrated using docker-compose ~\cite{docker2022}. The virtualized architecture, described in the diagram below, is published on GitHub, under a GPL License ~\cite{emotionalsdi2022}. This stack was deployed at this endpoint, where you can browse through some preliminary datasets from the project: https://emotional.byteroad.net/
 
 \subsection{Clients}\label{sec:CLIENTS}
 
 The availability of client implementations of the selected standards, is a critical aspect of the usefulness of an SDI. While we don’t have software to consume data published under the OGCA API standards, we cannot expect a serious uptake from the users. Our mission in this project does not end with publishing data using the selected standards. We want to make sure that the researchers are able to integrate these data in their workflows, either by using their usual tools, or by using new tools which we should be able to recommend and provide training for. As in the case of server-side implementations, we referred to the GitHub pages of the standards, in order to identify existing client-side implementations of the selected OGC API standards.
 
-OGC API - Features already features eight client implementations, including desktop applications, libraries and JavaScript APIs (TODO: CITE). It is supported in well-known OSGeo projects such as GDAL or QGIS (see Figure~\ref{fig:qgis-oaf}). In addition, as pygeoapi publishes data in GeoJSON, it is compatible with all clients which are capable of consuming GeoJSON.
+OGC API - Features already features eight client implementations, including desktop applications, libraries and JavaScript APIs ~\cite{ogcapifeaturesimpl2022}. It is supported in well-known OSGeo projects such as GDAL or QGIS (see Figure~\ref{fig:qgis-oaf}). In addition, as pygeoapi publishes data in GeoJSON, it is compatible with all clients which are capable of consuming GeoJSON.
 
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/qgis-oaf.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{OGC API - Features support in QGIS}
 \label{fig:qgis-oaf}
 \end{center}
 \end{figure}
@@ -202,7 +202,7 @@ The support to OGC API - Tiles was merged into the main branch of OpenLayers, in
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/ol-oat.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{A basic implementation using OGC API - Tiles with OpenLayers}
 \label{fig:ol-oat}
 \end{center}
 \end{figure}
@@ -221,7 +221,7 @@ The legacy stack is built around the free and open-source GeoServer, which imple
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/sdi-legacy-arch.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{eMOTIONAL Cities Legacy stack architecture}
 \label{fig:sdi-legacy-arch}
 \end{center}
 \end{figure}
@@ -252,7 +252,7 @@ On the client-side, the OGC API - Records searchable catalogue is supported nati
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/ec-records.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{Metasearch}
 \label{fig:qgis-rec}
 \end{center}
 \end{figure}
@@ -262,7 +262,7 @@ We also did not find any web application, which enabled browsing OGC API - recor
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/crawlable-catalogue-stac.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{A crawlable catalogue in Stac Browser}
 \label{fig:stac-browser}
 \end{center}
 \end{figure}
@@ -272,7 +272,7 @@ This has led us to develop a metadata browser, A-gis-full-of-records, using Reac
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/metadata-browser.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{The metadata browser prototype implemented for eMOTIONAL Cities project}
 \label{fig:metadata-browser}
 \end{center}
 \end{figure}
