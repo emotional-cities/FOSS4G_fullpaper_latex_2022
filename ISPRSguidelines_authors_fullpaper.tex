@@ -69,8 +69,8 @@
 % KAO: Sloppy spacing ensures non-overfull lines. Can be removed if this is not an issue.
 \sloppy
 
-Urban planning and design play an essential role in amplifying or diminishing built environmental threats to health promotion and disease prevention (Keedwell 2017; Hackman, et al. 2019). However, there is still a lack of good evidence and objective measures on how environmental aspects impact individual behaviour. The eMOTIONAL Cities project (eMOTIONAL Cities - Mapping the cities through the senses of those who make them 2021) sets out to understand how the natural and built environment can shape the feelings and emotions of those who experience it. It does so with a cross-disciplinary approach that includes urban planning, health, psychology, neuroscience, and environmental research.
-Data dissemination is one of the main focuses of the project. According to FAIR Principles, scientific research data must be findable, accessible, interoperable, and reusable. In a scientific project, good data dissemination must involve a good level of machine-actionability (CITE https://www.go-fair.org/fair-principles/).  
+Urban planning and design play an essential role in amplifying or diminishing built environmental threats to health promotion and disease prevention ~\cite{keedwell2017,hackman2019}. However, there is still a lack of good evidence and objective measures on how environmental aspects impact individual behaviour. The eMOTIONAL Cities project ~\cite{emotionalcities2021} sets out to understand how the natural and built environment can shape the feelings and emotions of those who experience it. It does so with a cross-disciplinary approach that includes urban planning, health, psychology, neuroscience, and environmental research.
+Data dissemination is one of the main focuses of the project. According to FAIR Principles, scientific research data must be findable, accessible, interoperable, and reusable. In a scientific project, good data dissemination must involve a good level of machine-actionability ~\cite{fair2022}. 
 
 At the core of this research project lies a Spatial Data Infrastructure (SDI), which assembles disparate datasets that characterise the emotional landscape and built environment in different cities across Europe and the US. The SDI is a key tool to make the research data available within the project consortium and allow cross-fertilisation with other ongoing projects from the Urban Health Cluster and, later on, to reach a broader public audience.
 
@@ -101,12 +101,12 @@ At the core of this research project lies a Spatial Data Infrastructure (SDI), w
 \subsection{Spatial Data Infrastructures}\label{sec:SDIS}
 
 The notion of SDIs emerged more than 20 years ago and has been constantly evolving, in response to both technological and organisational developments. 
-According to (TODO CITE) the term SDI encompasses multiple facets, ranging from the legal and political setting, to the organisational aspects, and technological enablers that make the sharing and use of geographic data possible. In this paper we will focus on the latter, which does not mean - by any means - that other aspects are of less importance.
+According to ~\cite{kotsev2022} the term SDI encompasses multiple facets, ranging from the legal and political setting, to the organisational aspects, and technological enablers that make the sharing and use of geographic data possible. In this paper we will focus on the latter, which does not mean - by any means - that other aspects are of less importance.
 
-Traditionally, SDIs adopt the OGC W*s service interfaces (e.g.: WMS, WFS, WCS), which are based on SOAP, the Simple Object Access Protocol. However, in recent times, we have seen the rise of new architectural approaches, which are taken from a web-native perspective and, at the same time, prioritise a machine-actionability approach and data-centrism (Simoes and Cerciello 2021). Modern web-based APIs have numerous advantages, which speak for their efficiency and simplicity. They provide a simple approach to data processing and management functionalities, offer different encodings of the payload (e.g.: JSON, HTML, JSON-LD), can easily be integrated into different tools, and can facilitate the discovery of data through mainstream search engines such as Google and Bing (Kotsev et al. 2020). These APIs often follow a RESTful architecture, which simplifies their usage, while minimising the bandwidth usage. Moreover, the OpenAPI specification (OpenAPI Initiative 2011) allows documentation of APIs in a vendor-independent, portable and open manner, which provides an interactive testing client within the API documentation.
+Traditionally, SDIs adopt the OGC W*s service interfaces (e.g.: WMS, WFS, WCS), which are based on SOAP, the Simple Object Access Protocol. However, in recent times, we have seen the rise of new architectural approaches, which are taken from a web-native perspective and, at the same time, prioritise a machine-actionability approach and data-centrism ~\cite{simoes2021}. Modern web-based APIs have numerous advantages, which speak for their efficiency and simplicity. They provide a simple approach to data processing and management functionalities, offer different encodings of the payload (e.g.: JSON, HTML, JSON-LD), can easily be integrated into different tools, and can facilitate the discovery of data through mainstream search engines such as Google and Bing ~\cite{kotsev2022}. These APIs often follow a RESTful architecture, which simplifies their usage, while minimising the bandwidth usage. Moreover, the OpenAPI specification ~\cite{openapi2011} allows documentation of APIs in a vendor-independent, portable and open manner, which provides an interactive testing client within the API documentation.
 
-OGC has embraced this new approach in its new family of standards called OGC APIs (OGC 2020a). Although still under active development, it already produced several approved standards: the ‘OGC API - Features’’ (OGC 2022b, the ‘OGC API - EDR’ (OGC 2022c), the ‘OGC API EDR’ (OGC 2022d), and the ‘OGC API - Processes’ (OGC 2022e) which provide standardised APIs for ensuring modern access to spatial data and processes using those data.
-There are many similarities in the process of designing and implementing open source and open standards. OSGeo encourages the use of open standards, like those from OGC and there is even a Memorandum of Understanding between the two organisations, initially signed in 2008 and updated recently, in 2022 (OSGeo 2012). In practice, many long-standing OSGeo projects implement OGC standards and they often contribute to the standards development (e.g.: GDAL, Geoserver, QGIS, OpenLayers, Leaflet). However, in the majority of cases, they still implement the legacy W*s standards, rather than the new OGC APIs.
+OGC has embraced this new approach in its new family of standards called OGC APIs ~\cite{ogc2020}. Although still under active development, it already produced several approved standards: the ‘OGC API - Features’ ~\cite{ogcfeatures2022}, the ‘OGC API - EDR’ ~\cite{ogcedr2022}, and the ‘OGC API - Processes’ ~\cite{ogcprocesses2022} which provide standardised APIs for ensuring modern access to spatial data and processes using those data.
+There are many similarities in the process of designing and implementing open source and open standards. OSGeo encourages the use of open standards, like those from OGC and there is even a Memorandum of Understanding between the two organisations, initially signed in 2008 and updated recently, in 2022 ~\cite{osgeo2022,ogcmemorandum2022}. In practice, many long-standing OSGeo projects implement OGC standards and they often contribute to the standards development (e.g.: GDAL, Geoserver, QGIS, OpenLayers, Leaflet). However, in the majority of cases, they still implement the legacy W*s standards, rather than the new OGC APIs.
 
 \section{The eMOTIONAL Cities SDI}\label{sec:EC-SDI}
 
@@ -115,12 +115,12 @@ The eMOTIONAL Cities project collects mostly vector datasets, from the neuroscie
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/foss4g-survey-data.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{eMOTIONAL Cities data formats allocation}
 \label{fig:survey-results}
 \end{center}
 \end{figure}
 
-When surveyed about the purpose of these data, the majority of the researchers in the project mentioned interactive mapping and analysis as their main use cases (CITE D3.1). With this background in mind, we have selected a set of OGC standards that are best suited to accommodate the project assets in an SDI. In Table~\ref{tab:apis}, we list the selected standards considering the legacy OGC W*s, and their translation to OGC APIs. At the very least, we need to be able to provide access to vector attributes and geometry and provide an interface for web mapping. All datasets should be discovered and accessed through their metadata.
+When surveyed about the purpose of these data, the majority of the researchers in the project mentioned interactive mapping and analysis as their main use cases ~\cite{simoes2021}. With this background in mind, we have selected a set of OGC standards that are best suited to accommodate the project assets in an SDI. In Table~\ref{tab:apis}, we list the selected standards considering the legacy OGC W*s, and their translation to OGC APIs. At the very least, we need to be able to provide access to vector attributes and geometry and provide an interface for web mapping. All datasets should be discovered and accessed through their metadata.
 
 \begin{table}[ht]
     \centering
@@ -132,7 +132,7 @@ of geospatial information.\\
       CSW & Records & Provides discovery and access to
 metadata about geospatial resources. \\\hline
     \end{tabular}
-    \caption{TODO: UPDATE CAPTION.}
+    \caption{Comparison of OGC API over OGC Web Service standards}
     \label{tab:apis}
 \end{table}
 
@@ -153,46 +153,46 @@ metadata about geospatial resources. \\\hline
 
 \subsection{Server-side Architecture}\label{sec:SERVER}
 
-Once we selected the standards for the SDI, we set out to select our software stack from existing server-side implementations of the OGC API standards, which are listed under the relevant OGC API GitHub (CITE features, tiles, records). If available, we would favour choosing OSGeo software, as we would like to benefit from all the advantages of using Free and Open-Source Software (FOSS), including the ability to contribute changes back, if deemed relevant. In the interest of simplicity, we would also prefer software projects that implement more than one of the OGC APIs we selected, and if possible all of them. Currently, there is only one software project that addresses these two requirements: pygeoapi.
+Once we selected the standards for the SDI, we set out to select our software stack from existing server-side implementations of the OGC API standards, which are listed under the relevant OGC API GitHub ~\cite{ogcapifeaturesimpl2022,ogcapitilesimpl2022,ogcapirecordsimpl2022}. If available, we would favour choosing OSGeo software, as we would like to benefit from all the advantages of using Free and Open-Source Software (FOSS), including the ability to contribute changes back, if deemed relevant. In the interest of simplicity, we would also prefer software projects that implement more than one of the OGC APIs we selected, and if possible all of them. Currently, there is only one software project that addresses these two requirements: pygeoapi.
 
-pygeoapi is a Python server implementation of the OGC API suite of standards, which “emerged as part of the next generation OGC API efforts in 2018”. It implements a number of OGC APIs, including OGC API - Tiles and OGC API - Features, and it is certified OGC Compliant and an OGC Reference Implementation for OGC API - Features - Part 1: Core 1.0. Rather than being a facade for existing W*s implementations, pygeoapi implements all the OGC APIs from scratch, leveraging all the benefits of modern web practices. For instance, it makes use of HTTP verbs (e.g.: GET/PUT/POST/DELETE) and codes (e.g.: 200, 201, 400, etc) and relies on content negotiation to retrieve the relevant media types. It also adopts JSON (JavaScript Object Notation) encodings, which is very popular among web developers and a first-class citizen in RESTfull (REST- REpresentational State Transfer) web services (CITE ).
+pygeoapi is a Python server implementation of the OGC API suite of standards, which “emerged as part of the next generation OGC API efforts in 2018”. It implements a number of OGC APIs, including OGC API - Tiles and OGC API - Features, and it is certified OGC Compliant and an OGC Reference Implementation for OGC API - Features - Part 1: Core 1.0. Rather than being a facade for existing W*s implementations, pygeoapi implements all the OGC APIs from scratch, leveraging all the benefits of modern web practices. For instance, it makes use of HTTP verbs (e.g.: GET/PUT/POST/DELETE) and codes (e.g.: 200, 201, 400, etc) and relies on content negotiation to retrieve the relevant media types. It also adopts JSON (JavaScript Object Notation) encodings, which is very popular among web developers and a first-class citizen in RESTfull (REST- REpresentational State Transfer) web services ~\cite{pygeoapi2019}.
 
-According to the pygeoapi documentation (CITE HERE), several data providers are supported for publishing vector data as OGC API - features (see Figure~\ref{fig:pygeoapi-providers}). ElasticSearch, along with SensorThingsAPI, is the data provider which provides the full range of functionality, including support for DateTime, which is an important aspect of neuroscience data.
+According to the pygeoapi documentation ~\cite{pygeoapiproviders2022}, several data providers are supported for publishing vector data as OGC API - features (see Figure~\ref{fig:pygeoapi-providers}). ElasticSearch, along with SensorThingsAPI, is the data provider which provides the full range of functionality, including support for DateTime, which is an important aspect of neuroscience data.
 
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/pygeoapi-data-providers.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{pygeoapi data providers and functionalities}
 \label{fig:pygeoapi-providers}
 \end{center}
 \end{figure}
 
-ElasticSearch is a search engine, dual-licensed under the source-available Server Side Public Licence and the Elastic licence (TODO: cite source). It is part of the ELK stack, which includes Logstash, a server‑side data processing pipeline that ingests data from multiple sources simultaneously, transforms it, and then sends it to ElasticSearch and Kibana, a tool to visualise ElasticSearch data with maps, charts and graphs (TODO: CITE). By adopting ElasticSearch as a vector data provider for pygeoapi, we can also leverage the complete ELK stack, to ingest and visualise our data assets.
+ElasticSearch is a search engine, dual-licensed under the source-available Server Side Public Licence and the Elastic licence ~\cite{elasticlicence2022}. It is part of the ELK stack, which includes Logstash, a server‑side data processing pipeline that ingests data from multiple sources simultaneously, transforms it, and then sends it to ElasticSearch and Kibana, a tool to visualise ElasticSearch data with maps, charts and graphs ~\cite{elkstack2022}. By adopting ElasticSearch as a vector data provider for pygeoapi, we can also leverage the complete ELK stack, to ingest and visualise our data assets.
 
 The architecture of the eMOTIONAL Cities SDI is described in Figure~\ref{fig:sdi-arch} and Figure~\ref{fig:docker-compose} of the APPENDIX. Data and metadata are ingested from GeoJSON files in a data lake, and published as OGC API - Features, OGC API - Records and OGC API - Tiles.
 
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/sdi-arch.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{eMOTIONAL Cities SDI architecture}
 \label{fig:sdi-arch}
 \end{center}
 \end{figure}
 
-Tiptoppecanoe (TODO CITE), is used to generate vector tiles, which are then served in a Minio bucket (TODO CITE). MinIO is a High-Performance Object Storage released under a GPL3.0 License. Its API is compatible with the Amazon S3 cloud storage service, which makes it a very good alternative to store large datasets in an unstructured manner, for fast access.
+Tippecanoe ~\cite{tippecanoe2022}, is used to generate vector tiles, which are then served in a Minio bucket ~\cite{minio2022}. MinIO is a High-Performance Object Storage released under a GPL3.0 License. Its API is compatible with the Amazon S3 cloud storage service, which makes it a very good alternative to store large datasets in an unstructured manner, for fast access.
 
-In order to ease the deployment of the SDI and to increase the reproducibility of this research, the software stack was virtualized into a set of docker containers, which are orchestrated using docker-compose (TODO: CITE). The virtualized architecture, described in the diagram below, is published on GitHub, under a GPL License (https://github.com/emotional-cities/openapi-sdi). This stack was deployed at this endpoint, where you can browse through some preliminary datasets from the project: https://emotional.byteroad.net/
+In order to ease the deployment of the SDI and to increase the reproducibility of this research, the software stack was virtualized into a set of docker containers, which are orchestrated using docker-compose ~\cite{docker2022}. The virtualized architecture, described in the diagram below, is published on GitHub, under a GPL License ~\cite{emotionalsdi2022}. This stack was deployed at this endpoint, where you can browse through some preliminary datasets from the project: https://emotional.byteroad.net/
 
 \subsection{Clients}\label{sec:CLIENTS}
 
 The availability of client implementations of the selected standards, is a critical aspect of the usefulness of an SDI. While we don’t have software to consume data published under the OGCA API standards, we cannot expect a serious uptake from the users. Our mission in this project does not end with publishing data using the selected standards. We want to make sure that the researchers are able to integrate these data in their workflows, either by using their usual tools, or by using new tools which we should be able to recommend and provide training for. As in the case of server-side implementations, we referred to the GitHub pages of the standards, in order to identify existing client-side implementations of the selected OGC API standards.
 
-OGC API - Features already features eight client implementations, including desktop applications, libraries and JavaScript APIs (TODO: CITE). It is supported in well-known OSGeo projects such as GDAL or QGIS (see Figure~\ref{fig:qgis-oaf}). In addition, as pygeoapi publishes data in GeoJSON, it is compatible with all clients which are capable of consuming GeoJSON.
+OGC API - Features already features eight client implementations, including desktop applications, libraries and JavaScript APIs ~\cite{ogcapifeaturesimpl2022}. It is supported in well-known OSGeo projects such as GDAL or QGIS (see Figure~\ref{fig:qgis-oaf}). In addition, as pygeoapi publishes data in GeoJSON, it is compatible with all clients which are capable of consuming GeoJSON.
 
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/qgis-oaf.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{OGC API - Features support in QGIS}
 \label{fig:qgis-oaf}
 \end{center}
 \end{figure}
@@ -202,7 +202,7 @@ The support to OGC API - Tiles was merged into the main branch of OpenLayers, in
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/ol-oat.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{A basic implementation using OGC API - Tiles with OpenLayers}
 \label{fig:ol-oat}
 \end{center}
 \end{figure}
@@ -221,7 +221,7 @@ The legacy stack is built around the free and open-source GeoServer, which imple
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/sdi-legacy-arch.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{eMOTIONAL Cities Legacy stack architecture}
 \label{fig:sdi-legacy-arch}
 \end{center}
 \end{figure}
@@ -252,7 +252,7 @@ On the client-side, the OGC API - Records searchable catalogue is supported nati
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/ec-records.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{Metasearch}
 \label{fig:qgis-rec}
 \end{center}
 \end{figure}
@@ -262,7 +262,7 @@ We also did not find any web application, which enabled browsing OGC API - recor
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/crawlable-catalogue-stac.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{A crawlable catalogue in Stac Browser}
 \label{fig:stac-browser}
 \end{center}
 \end{figure}
@@ -272,7 +272,7 @@ This has led us to develop a metadata browser, A-gis-full-of-records, using Reac
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/metadata-browser.png}
-	\caption{TODO: UPDATE CAPTION.}
+	\caption{The metadata browser prototype implemented for eMOTIONAL Cities project}
 \label{fig:metadata-browser}
 \end{center}
 \end{figure}
@@ -325,38 +325,6 @@ Although we have described many advantages of the OGC APIs, we believe there wil
 
 
 % % KAO: Non-breaking space
-\subsection{TESTING REFERENCES}\label{sec:References}
-References should be cited in the text, thus~\cite{smith1987rep}, and listed in alphabetical order in the reference section. The following arrangements should be used:
-
-% KAO: Use proper quotes and non-breaking space
-\subsubsection{References from Journals:} 
-Journals should be cited like~\cite{smith1987} or~\cite{michalis2008}. Names of journals can be abbreviated according to the ``International List of Periodical Title Word Abbreviations''. In case of doubt, write names in full.
-
-\subsubsection{References from Books:} 
-Books should be cited like~\cite{foerstner2016}.
-
-\subsubsection{References from other Literature:}
-Other literature should be cited like~\cite{smith1987rep} and~\cite{smith2000}.
-
-\subsubsection{References from Websites:}
-References from the internet should be cited like~\cite{chan2017} and~\cite{maas2017}. Use ofpersistent identifiers such as the Digital Object Identifier (DOI) rather than URLs is strongly advised. In this case last date of visiting the website can be omitted, as the identifier will not change.
-
-\subsubsection{References from Research Data:}
-References from research data should be cited like~\cite{dubayah2013}.
-
-\subsubsection{References from Software Projects:}
-References to a software project as a high level container including multiple versions of the software should be cited like~\cite{grass2017}.
-
-\subsubsection{References from Software Versions:}
-References to a specific software version should be cited like~\cite{grass2015}.
-
-\subsubsection{References from Software Project Add-ons:}
-References to a specific software add-on to a software project should be cited like~\cite{lennert2017}.
-
-\subsubsection{References from Software Repository:}
-References from software repositories should be cited like~\cite{gago2016}.
-
-References from software repositories should be cited like~\cite{k_michael_aye_2016_51824}
 
 \section*{ACKNOWLEDGEMENTS}\label{ACKNOWLEDGEMENTS}
 Acknowledgements of support for the project/paper/author are masked, in order to not violate the anonymity of the submitted paper. 

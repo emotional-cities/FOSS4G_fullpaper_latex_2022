@@ -1,27 +1,27 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.5.28)  29 MAY 2022 21:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.30)  1 JUN 2022 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **ISPRSguidelines_authors_fullpaper.tex
 (./ISPRSguidelines_authors_fullpaper.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14> (./isprs.cls
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> (./isprs.cls
 Document Class: isprs 2000/01/15 Class for ISPRS Publications
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -32,42 +32,42 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen134
-\Gin@req@width=\dimen135
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
 )
-\epsfxsize=\dimen136
-\epsfysize=\dimen137
+\epsfxsize=\dimen140
+\epsfysize=\dimen141
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen138
+\bibindent=\dimen142
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box45
+\ttl@box=\box47
 \beforetitleunit=\skip49
 \aftertitleunit=\skip50
-\ttl@plus=\dimen139
-\ttl@minus=\dimen140
-\ttl@toksa=\toks15
-\titlewidth=\dimen141
-\titlewidthlast=\dimen142
-\titlewidthfirst=\dimen143
+\ttl@plus=\dimen143
+\ttl@minus=\dimen144
+\ttl@toksa=\toks16
+\titlewidth=\dimen145
+\titlewidthlast=\dimen146
+\titlewidthfirst=\dimen147
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
@@ -96,14 +96,14 @@ Package subfigure Warning: Your document class has a bad definition
 
 \subfigtopskip=\skip51
 \subfigcapskip=\skip52
-\subfigcaptopadj=\dimen144
+\subfigcaptopadj=\dimen148
 \subfigbottomskip=\skip53
-\subfigcapmargin=\dimen145
+\subfigcapmargin=\dimen149
 \subfiglabelskip=\skip54
-\c@subfigure=\count175
-\c@lofdepth=\count176
-\c@subtable=\count177
-\c@lotdepth=\count178
+\c@subfigure=\count185
+\c@lofdepth=\count186
+\c@subtable=\count187
+\c@lotdepth=\count188
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
@@ -121,20 +121,20 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count179
-\Gm@cntv=\count180
-\c@Gm@tempcnt=\count181
-\Gm@bindingoffset=\dimen146
-\Gm@wd@mp=\dimen147
-\Gm@odd@mp=\dimen148
-\Gm@even@mp=\dimen149
-\Gm@layoutwidth=\dimen150
-\Gm@layoutheight=\dimen151
-\Gm@layouthoffset=\dimen152
-\Gm@layoutvoffset=\dimen153
-\Gm@dimlist=\toks16
+\Gm@cnth=\count189
+\Gm@cntv=\count190
+\c@Gm@tempcnt=\count191
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
@@ -149,16 +149,16 @@ Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -178,53 +178,50 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen154
-\captionmargin@=\dimen155
-\captionwidth=\dimen156
-\caption@tempdima=\dimen157
-\caption@indent=\dimen158
-\caption@parindent=\dimen159
-\caption@hangindent=\dimen160
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen158
+\captionmargin@=\dimen159
+\captionwidth=\dimen160
+\caption@tempdima=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->\vskip 4\p@ \setbox \@t
 empboxa \hbox {#1: #2}\ifdim \wd \@tempboxa >\hsize #1: #2\par \else \hbox to\h
-size {\hfil \box \@tempboxa \hfil }\fi  on input line 1082.
+size {\hfil \box \@tempboxa \hfil }\fi  on input line 1139.
 )
 
 Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count182
-\c@continuedfloat=\count183
+\c@caption@flags=\count192
+\c@continuedfloat=\count193
 Package caption Info: subfigure package is loaded.
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/02/14 3.40 The Babel package
+Package: babel 2021/01/26 3.53 The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2020/02/14 3.40 Babel switching mechanism
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/01/26 3.53 Babel common definitions
+\babel@savecnt=\count194
+\U@D=\dimen165
+\l@babelnohyphens=\language3
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
 )
+\bbl@dirlevel=\count195
+
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/british.ldf
 Language: british 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count184
-\U@D=\dimen161
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count185
-)
 Package babel Info: \l@british = using hyphenrules for english
 (babel)             (\language0) on input line 82.
 Package babel Info: \l@UKenglish = using hyphenrules for english
@@ -238,9 +235,9 @@ Package babel Info: \l@newzealand = using hyphenrules for english
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks17
-\footnotemargin=\dimen162
-\c@pp@next@reset=\count186
+\FN@temptoken=\toks18
+\footnotemargin=\dimen166
+\c@pp@next@reset=\count196
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -254,27 +251,33 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen163
-\ar@mcellbox=\box46
-\extrarowheight=\dimen164
-\NC@list=\toks18
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen167
+\ar@mcellbox=\box48
+\extrarowheight=\dimen168
+\NC@list=\toks19
 \extratabsurround=\skip57
 \backup@length=\skip58
-\ar@cellbox=\box47
+\ar@cellbox=\box49
 )
-\TX@col@width=\dimen165
-\TX@old@table=\dimen166
-\TX@old@col=\dimen167
-\TX@target=\dimen168
-\TX@delta=\dimen169
-\TX@cols=\count187
-\TX@ftn=\toks19
+\TX@col@width=\dimen169
+\TX@old@table=\dimen170
+\TX@old@col=\dimen171
+\TX@target=\dimen172
+\TX@delta=\dimen173
+\TX@cols=\count197
+\TX@ftn=\toks20
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count188
-\l__pdf_internal_box=\box48
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+5.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count198
+\l__pdf_internal_box=\box50
 )
 (./ISPRSguidelines_authors_fullpaper.aux)
 \openout1 = `ISPRSguidelines_authors_fullpaper.aux'.
@@ -293,25 +296,20 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-5.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count189
-\scratchdimen=\dimen170
-\scratchbox=\box49
-\nofMPsegments=\count190
-\nofMParguments=\count191
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count192
-\MPscratchDim=\dimen171
-\MPnumerator=\count193
-\makeMPintoPDFobject=\count194
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count199
+\scratchdimen=\dimen174
+\scratchbox=\box51
+\nofMPsegments=\count266
+\nofMParguments=\count267
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count268
+\MPscratchDim=\dimen175
+\MPnumerator=\count269
+\makeMPintoPDFobject=\count270
+\everyMPtoPDFconversion=\toks22
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -492,44 +490,125 @@ File: figures/metadata-browser.png Graphic file (type png)
 Package pdftex.def Info: figures/metadata-browser.png  used on input line 274.
 (pdftex.def)             Requested size: 233.31252pt x 160.05963pt.
 [4 <./figures/sdi-legacy-arch.png> <./figures/ec-records.png>]
-Underfull \hbox (badness 2443) in paragraph at lines 336--337
-[] |\OT1/ptm/b/n/9.25 3.1.2 Ref-er-ences from Books: \OT1/ptm/m/n/9.25 Books sh
-ould be cited
- []
-
-(./ISPRSguidelines_authors_fullpaper.bbl [5 <./figures/crawlable-catalogue-stac
-.png> <./figures/metadata-browser.png>]
-Underfull \hbox (badness 1448) in paragraph at lines 33--36
-[]\OT1/ptm/m/n/9.25 GRASS De-vel-op-ment Team, 2015. Ge-o-graphic Re-sources
+(./ISPRSguidelines_authors_fullpaper.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]\OT1/ptm/m/n/9.25 Docker Inc., 2022. Docker Com-pose.
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 38--41
-[]\OT1/ptm/m/n/9.25 GRASS De-vel-op-ment Team, 2017. Ge-o-graphic Re-sources
+Underfull \hbox (badness 1629) in paragraph at lines 9--12
+[]\OT1/ptm/m/n/9.25 Elastic, 2022a. Elas-tic Li-cence. elastic.co/licensing/ela
+stic-
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 43--48
-[]\OT1/ptm/m/n/9.25 Lennert, M., GRASS De-vel-op-ment Team, 2017. Ad-
+Underfull \hbox (badness 6725) in paragraph at lines 25--28
+[]\OT1/ptm/m/n/9.25 Go FAIR, 2022. FAIR Prin-ci-ples. www.go-fair.org/fair-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-\OT1/ptm/m/n/9.25 don i.segment.stats. Ge-o-graphic Re-sources Anal-
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
+[]\OT1/ptm/m/n/9.25 Mapbox team, 2022. Tippeca-noe. Github.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-\OT1/ptm/m/n/9.25 y-sis Sup-port Sys-tem (GRASS) Soft-ware, Ver-
+Underfull \hbox (badness 1708) in paragraph at lines 67--71
+[]\OT1/ptm/m/n/9.25 OGC, 2022a. OGC API - En-vi-ron-men-tal Data Re-trieval.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-\OT1/ptm/m/n/9.25 sion 7.2. Open Source Geospa-tial Foun-da-tion.
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
+\OT1/ptm/m/n/9.25 Github. github.com/opengeospatial/ogcapi-environmental-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+[]\OT1/ptm/m/n/9.25 OGC, 2022b. OGC API - Fea-tures. Github.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+[]\OT1/ptm/m/n/9.25 OGC, 2022c. OGC API - Pro-cesses. Github.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+[]\OT1/ptm/m/n/9.25 OGC, 2022d. OGC API Fea-tures Im-ple-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+\OT1/ptm/m/n/9.25 men-ta-tions. github.com/opengeospatial/ogcapi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
+[]\OT1/ptm/m/n/9.25 OGC, 2022e. OGC API Records Im-ple-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
+\OT1/ptm/m/n/9.25 men-ta-tions. github.com/opengeospatial/ogcapi-
+ []
+
+[5 <./figures/crawlable-catalogue-stac.png> <./figures/metadata-browser.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
+[]\OT1/ptm/m/n/9.25 OGC, 2022f. OGC API Tiles Im-ple-men-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
+\OT1/ptm/m/n/9.25 ta-tions. github.com/opengeospatial/ogcapi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
+[]\OT1/ptm/m/n/9.25 OpenAPI Ini-tia-tive, 2011. Ope-nAPI Spec-i-fi-ca-tion.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+[]\OT1/ptm/m/n/9.25 OSGeo and OGC, 2022. MEM-O-RAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+\OT1/ptm/m/n/9.25 DUM OF UN-DER-STAND-ING. osgeo.org/wp-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+\OT1/ptm/m/n/9.25 content/uploads/MOU[]OGC[]OSGeo[]2022[]signed.pdf (31
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--121
+[]\OT1/ptm/m/n/9.25 pygeoapi Team, 2022. py-geoapi Data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--121
+\OT1/ptm/m/n/9.25 Providers. docs.pygeoapi.io/en/stable/data-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
+[]\OT1/ptm/m/n/9.25 Simoes, J., Cer-ciello, A., 2022a. De-liv-er-able 3.1 -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
+\OT1/ptm/m/n/9.25 data man-age-ment plan i. emotionalcities-h2020.eu/wp-
+ []
+
+
+Overfull \hbox (41.03104pt too wide) in paragraph at lines 123--127
+\OT1/ptm/m/n/9.25 content/uploads/2022/02/eMC[]2021.08[]D3.1[]Data[]Management[
+]Plan.pdf
  []
 
 )
-Underfull \vbox (badness 1184) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6
 
@@ -537,14 +616,14 @@ Underfull \vbox (badness 1184) has occurred while \output is active []
 <figures/docker-compose-all.png, id=44, 1851.91875pt x 484.81125pt>
 File: figures/docker-compose-all.png Graphic file (type png)
 <use figures/docker-compose-all.png>
-Package pdftex.def Info: figures/docker-compose-all.png  used on input line 379
+Package pdftex.def Info: figures/docker-compose-all.png  used on input line 347
 .
 (pdftex.def)             Requested size: 483.69687pt x 126.62495pt.
 <figures/docker-compose-legacy.png, id=45, 1847.90375pt x 257.96375pt>
 File: figures/docker-compose-legacy.png Graphic file (type png)
 <use figures/docker-compose-legacy.png>
 Package pdftex.def Info: figures/docker-compose-legacy.png  used on input line 
-387.
+355.
 (pdftex.def)             Requested size: 483.69687pt x 67.52165pt.
 
 [7
@@ -557,19 +636,19 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 4717 strings out of 483183
- 74392 string characters out of 5966292
- 331421 words of memory out of 5000000
- 19650 multiletter control sequences out of 15000+600000
- 543281 words of font info for 42 fonts, out of 8000000 for 9000
+ 5120 strings out of 481252
+ 83335 string characters out of 5915888
+ 395957 words of memory out of 5000000
+ 21978 multiletter control sequences out of 15000+600000
+ 414373 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,9n,42p,1170b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,9n,102p,1170b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on ISPRSguidelines_authors_fullpaper.pdf (7 pages, 3169767 bytes
+Output written on ISPRSguidelines_authors_fullpaper.pdf (7 pages, 3166480 bytes
 ).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
