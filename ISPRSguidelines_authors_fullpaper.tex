@@ -13,7 +13,7 @@
 \usepackage{geometry} % added 27-02-2014 Markus Englich
 \usepackage{epstopdf}
 \usepackage[labelsep=period]{caption}  % added 14-04-2016 Markus Englich - Recommendation by Sebastian Brocks
-\usepackage[british]{babel} 
+\usepackage[british]{babel}
 \usepackage[hang]{footmisc}
 \def\footnotemargin{1em} % added 08-01-2020 Dennis Wittich
 \usepackage{tabularx}
@@ -65,12 +65,12 @@
 %\saythanks % added 28-02-2014 Markus Englich
 
 \section{INTRODUCTION}\label{INTRODUCTION}
- 
+
 % KAO: Sloppy spacing ensures non-overfull lines. Can be removed if this is not an issue.
 \sloppy
 
 Urban planning and design play an essential role in amplifying or diminishing built environmental threats to health promotion and disease prevention ~\cite{keedwell2017,hackman2019}. However, there is still a lack of good evidence and objective measures on how environmental aspects impact individual behaviour. The eMOTIONAL Cities project ~\cite{emotionalcities2021} sets out to understand how the natural and built environment can shape the feelings and emotions of those who experience it. It does so with a cross-disciplinary approach that includes urban planning, health, psychology, neuroscience, and environmental research.
-Data dissemination is one of the main focuses of the project. According to FAIR Principles, scientific research data must be findable, accessible, interoperable, and reusable. In a scientific project, good data dissemination must involve a good level of machine-actionability ~\cite{fair2022}. 
+Data dissemination is one of the main focuses of the project. According to FAIR Principles, scientific research data must be findable, accessible, interoperable, and reusable. In a scientific project, good data dissemination must involve a good level of machine-actionability ~\cite{fair2022}.
 
 At the core of this research project lies a Spatial Data Infrastructure (SDI), which assembles disparate datasets that characterise the emotional landscape and built environment in different cities across Europe and the US. The SDI is a key tool to make the research data available within the project consortium and allow cross-fertilisation with other ongoing projects from the Urban Health Cluster and, later on, to reach a broader public audience.
 
@@ -79,7 +79,7 @@ At the core of this research project lies a Spatial Data Infrastructure (SDI), w
 %Full papers \textbf{submitted for double-blind review} must not contain any information which makes it possible to identify the authors. In particular, names and affiliations must be removed from the manuscript submitted for review. Also sentences such as ''As we have shown in previous work (Author\_x, 20xx)'' are to be avoided. Instead use a formulation such as ''Author\_x (20xx) has shown ...''. Note that submissions which have not been appropriately anonymised may be subject to immediate rejection.\\
 %In case, the contribution has been accepted for publication, a camera-ready manuscript must be submitted at the due date. In this camera-ready manuscript the name(s) and affiliation(s) of the authors(s) must be identified, and acknowledgements can be personalized.
 % In Section~\ref{MANUSCRIPT} we present related work
-%\newpage            
+%\newpage
 %\subsection{Page Layout, Spacing and Margins}\label{sec:Page Layout, Spacing and Margins}
 
 %The paper must be compiled in one column for the Title and Abstract and in two columns for all subsequent text. All text should be single-spaced, unless otherwise stated. Left and right justified typing is preferred.
@@ -88,7 +88,7 @@ At the core of this research project lies a Spatial Data Infrastructure (SDI), w
 %\subsection{Preparation in electronic form}\label{sec:Preparation in electronic form}
 
 % KAO: Remove newline
-%To assist authors in preparing their contributions, styleguides are 
+%To assist authors in preparing their contributions, styleguides are
 %provided in Word and/or LaTeX on the ISPRS web Page, see: http://www.isprs.org/documents/orangebook/app5.aspx.
 
 
@@ -100,7 +100,7 @@ At the core of this research project lies a Spatial Data Infrastructure (SDI), w
 
 \subsection{Spatial Data Infrastructures}\label{sec:SDIS}
 
-The notion of SDIs emerged more than 20 years ago and has been constantly evolving, in response to both technological and organisational developments. 
+The notion of SDIs emerged more than 20 years ago and has been constantly evolving, in response to both technological and organisational developments.
 According to ~\cite{kotsev2022} the term SDI encompasses multiple facets, ranging from the legal and political setting, to the organisational aspects, and technological enablers that make the sharing and use of geographic data possible. In this paper we will focus on the latter, which does not mean - by any means - that other aspects are of less importance.
 
 Traditionally, SDIs adopt the OGC W*s service interfaces (e.g.: WMS, WFS, WCS), which are based on SOAP, the Simple Object Access Protocol. However, in recent times, we have seen the rise of new architectural approaches, which are taken from a web-native perspective and, at the same time, prioritise a machine-actionability approach and data-centrism ~\cite{simoes2021}. Modern web-based APIs have numerous advantages, which speak for their efficiency and simplicity. They provide a simple approach to data processing and management functionalities, offer different encodings of the payload (e.g.: JSON, HTML, JSON-LD), can easily be integrated into different tools, and can facilitate the discovery of data through mainstream search engines such as Google and Bing ~\cite{kotsev2022}. These APIs often follow a RESTful architecture, which simplifies their usage, while minimising the bandwidth usage. Moreover, the OpenAPI specification ~\cite{openapi2011} allows documentation of APIs in a vendor-independent, portable and open manner, which provides an interactive testing client within the API documentation.
@@ -197,7 +197,7 @@ OGC API - Features already features eight client implementations, including desk
 \end{center}
 \end{figure}
 
-The support to OGC API - Tiles was merged into the main branch of OpenLayers, in September 2021 (https://github.com/openlayers/openlayers/pull/10963). On this repository (TODO CITE), we prototyped a web map consuming vector tiles from OGC API - Tiles, using OpenLayers (see Figure~\ref{fig:ol-oat}).
+The support to OGC API - Tiles was merged into the main branch of OpenLayers, in September 2021 (https://github.com/openlayers/openlayers/pull/10963). On this repository ~\cite{openlayersexample2022}, we prototyped a web map consuming vector tiles from OGC API - Tiles, using OpenLayers (see Figure~\ref{fig:ol-oat}).
 
 \begin{figure}[ht!]
 \begin{center}
@@ -207,16 +207,16 @@ The support to OGC API - Tiles was merged into the main branch of OpenLayers, in
 \end{center}
 \end{figure}
 
-Although in the eMOTIONAL Cities SDI we are focused on vector tiles, it is worth mentioning that during the March 2022 Joint OGC-OSGeo-ASF code sprint (TODO Cite), a plugin for Leaflet which adds support for map tiles was prototyped (https://github.com/openlayers/openlayers/pull/10963). 
+Although in the eMOTIONAL Cities SDI we are focused on vector tiles, it is worth mentioning that during the March 2022 Joint OGC-OSGeo-ASF code sprint (TODO Cite), a plugin for Leaflet which adds support for map tiles was prototyped (https://github.com/openlayers/openlayers/pull/10963).
 
 We provide some considerations about clients for OGC API Records, in section~\ref{sec:METADATA}.
 
 \subsection{The legacy stack}\label{sec:LEGACY}
 
-During the steps of collecting the requirements for the SDI of eMOTIONAL Cities, no participant has explicitly expressed the need to keep or share data following a specific standard. In neuroscience research is, in general, an area where there are not many standards, although the need is recognized (CITE https://link.springer.com/article/10.1007/s12021-021-09557-0), this is no exception to GIS standards. 
+During the steps of collecting the requirements for the SDI of eMOTIONAL Cities, no participant has explicitly expressed the need to keep or share data following a specific standard. In neuroscience research is, in general, an area where there are not many standards, although the need is recognized ~\cite{poline2022}, this is no exception to GIS standards.
 For this reason, we have tried to create solutions that rely on emerging technological trends and thus are more likely to stay around in the future. However, researchers from the urban planning domain are often used to work with the legacy W*s, and as we described in section~\ref{sec:CLIENTS}, there are not that many client implementations available, which means that in some cases their preferred tool may not support an OGC API, yet. As a compromise, we decided to provide a backward compatibility system. This has led us to deploy a legacy stack, composed of mature free and open-source solutions widely used in the GIS domain, along with our OGC API stack.
 
-The legacy stack is built around the free and open-source GeoServer, which implements industry-standard OGC protocols such as Web Feature Service (WFS), Web Map Service (WMS), and Web Coverage Service (WCS). Additional formats and publication options are available as extensions including Web Processing Service (WPS), and Web Map Tile Service (WMTS). (CITE https://geoserver.org/). The architecture of this solution is described in Figure~\ref{fig:sdi-legacy-arch} and in Figure~\ref{fig:docker-compose-legacy} of the APPENDIX.
+The legacy stack is built around the free and open-source GeoServer, which implements industry-standard OGC protocols such as Web Feature Service (WFS), Web Map Service (WMS), and Web Coverage Service (WCS). Additional formats and publication options are available as extensions including Web Processing Service (WPS), and Web Map Tile Service (WMTS) ~\cite{geoserver2022}. The architecture of this solution is described in Figure~\ref{fig:sdi-legacy-arch} and in Figure~\ref{fig:docker-compose-legacy} of the APPENDIX.
 
 \begin{figure}[ht!]
 \begin{center}
@@ -226,28 +226,27 @@ The legacy stack is built around the free and open-source GeoServer, which imple
 \end{center}
 \end{figure}
 
-GeoServer can be configured to collect data from different sources, like filesystems and DBs (spatial and non). 
+GeoServer can be configured to collect data from different sources, like filesystems and DBs (spatial and non).
 As part of the project, GeoServer will exclusively share data, which will be gathered in the Data Lake, the same used in the OGC API stack, and ingested in GeoServer’s stores by suitably configured data pipelines. A diagram with the server side architecture of this stack is shown below.
-Data from GeoServer can be easly consumed by a wide range of GIS clients, including the MapStore, an highly modular Open Source WebGIS framework, included in the EC’s SDI (https://mapstore.readthedocs.io/en/latest/).
+Data from GeoServer can be easly consumed by a wide range of GIS clients, including the MapStore, an highly modular Open Source WebGIS framework, included in the EC’s SDI ~\cite{mapstore2022}.
 
 \subsection{Metadata}\label{sec:METADATA}
 
-In a project built around FAIR principles, metadata leads a primary role. Metadata allows the description of the datasets exposed by the other components of the SDI, making the data searchable and accessible. Using metadata to describe resources enables its understanding by humans as well as machines. The literature is rich on the subject, and it is not an exaggeration to consider an SDI complete only when it is provided with a catalogue of its data. (CITE http://aims.fao.org/news/fair-principles-digital-objects-role-metadata)
-The reference standard for catalogues of GIS records is the OGC CSW. In CSW, metadata records are XML documents served over HTTP. CSW is a profile of the OGC Catalog Service specification (CITE https://www.ogc.org/standards/cat).
+In a project built around FAIR principles, metadata leads a primary role. Metadata allows the description of the datasets exposed by the other components of the SDI, making the data searchable and accessible. Using metadata to describe resources enables its understanding by humans as well as machines. The literature is rich on the subject, and it is not an exaggeration to consider an SDI complete only when it is provided with a catalogue of its data ~\cite{fairmetadata2022}.
+The reference standard for catalogues of GIS records is the OGC CSW. In CSW, metadata records are XML documents served over HTTP. CSW is a profile of the OGC Catalog Service specification ~\cite{cat2022}.
 OGC API - Records (from now OARec) specification has been developed with the same objective as CSW, but built with the characteristics of an OGC API.
-Unlike CSW, which exposes records as XML documents, OARec can expose records in different formats, although the JSON format remains an essential requirement (CITE ).
-According to (Cite draft 20 004) there are a number of ways that records can be deployed as a "collection of records" or a catalogue.
+Unlike CSW, which exposes records as XML documents, OARec can expose records in different formats, although the JSON format remains an essential requirement ~\cite{metadataencodings2022}.
+According to ~\cite{cataloguetype2022} there are a number of ways that records can be deployed as a "collection of records" or a catalogue.
 \begin{itemize}
 \item {Crawlable catalogue: To implement a catalogue where records are stored as individual files in one or more web-accessible locations and can be crawled by simply following hypermedia controls.1}
 \item {Searchable catalogue: To implement a catalogue where records are stored in some backend database and are accessed through an access/search API.1}
 \item {Local resources catalogue: To implement a local resource catalogue at an OGC API resources endpoint.1}
 \end{itemize}
-(CITE )
 Deciding which record catalogue to use for EC was not an easy choice, because metadata is the single entry point of an SDI, and thus it does not make sense to have multiple deployments, using legacy and modern standards. Therefore, it was decided to use the OGC API option, since it makes no sense to present an entry point that does have the characteristics and benefits that we favour adopting in the other solutions.
-The exploratory nature of the project allows for this choice, but the impossibility of recommending this choice in other fields, such as public administrations and governments, must however be mentioned. First of all, the fact that the standard is still in draft, although its maturity must be recognized. Not least importantly, given the fundamental role of metadata in an SDI, is the fact that the standard is not yet stable enough to be covered under national and international directives, such as INSPIRE, for which OGC CSW still remains a safer choice (CITE ).
-Having said that, the promising uptake of the standard, which even in an early stage of development, already features server-side implementations must be acknowledged. Free and Open Source solutions, such as pygeoapi, allow users to have an implementation of OARec aligned with advances in standards, which is perfectly usable in a real SDI (CITE ).
+The exploratory nature of the project allows for this choice, but the impossibility of recommending this choice in other fields, such as public administrations and governments, must however be mentioned. First of all, the fact that the standard is still in draft, although its maturity must be recognized. Not least importantly, given the fundamental role of metadata in an SDI, is the fact that the standard is not yet stable enough to be covered under national and international directives, such as INSPIRE, for which OGC CSW still remains a safer choice ~\cite{tzotsos2021}.
+Having said that, the promising uptake of the standard, which even in an early stage of development, already features server-side implementations must be acknowledged. Free and Open Source solutions, such as pygeoapi, allow users to have an implementation of OARec aligned with advances in standards, which is perfectly usable in a real SDI ~\cite{ogcapirecordsimpl2022}.
 
-On the client-side, the OGC API - Records searchable catalogue is supported natively in QGIS, through the Metasearch core plugin (TODO: Cite). Figure~\ref{fig:qgis-rec} shows a screenshot of this plugin, which allows users to browse through the records of OGC API - Records catalogues, view the metadata and pull the associated data. This tool does not provide however, an interface for the authoring of metadata. 
+On the client-side, the OGC API - Records searchable catalogue is supported natively in QGIS, through the Metasearch core plugin (TODO: Cite). Figure~\ref{fig:qgis-rec} shows a screenshot of this plugin, which allows users to browse through the records of OGC API - Records catalogues, view the metadata and pull the associated data. This tool does not provide however, an interface for the authoring of metadata.
 
 \begin{figure}[ht!]
 \begin{center}
@@ -257,7 +256,7 @@ On the client-side, the OGC API - Records searchable catalogue is supported nati
 \end{center}
 \end{figure}
 
-We also did not find any web application, which enabled browsing OGC API - records on the web, apart from the compatible STAC Vue browser, which is restricted to crawlable catalogues  (https://github.com/radiantearth/stac-browser). A screenshot of this application is shown on Figure~\ref{fig:stac-browser}. 
+We also did not find any web application, which enabled browsing OGC API - records on the web, apart from the compatible STAC Vue browser, which is restricted to crawlable catalogues  ~\cite{stacbrowser2022}. A screenshot of this application is shown on Figure~\ref{fig:stac-browser}.
 
 \begin{figure}[ht!]
 \begin{center}
@@ -267,7 +266,7 @@ We also did not find any web application, which enabled browsing OGC API - recor
 \end{center}
 \end{figure}
 
-This has led us to develop a metadata browser, A-gis-full-of-records, using React Framework (CITE https://reactjs.org/) and Leaflet (CITE https://leafletjs.com/). The tool, shown on Figure~\ref{fig:metadata-browser}, is still under development, but it’s a good demonstration of the developer friendliness of OGC API.
+This has led us to develop a metadata browser, A-gis-full-of-records, using React Framework ~\cite{react2022} and Leaflet ~\cite{leafletjs2022}. The tool, shown on Figure~\ref{fig:metadata-browser}, is still under development, but it’s a good demonstration of the developer friendliness of OGC API.
 
 \begin{figure}[ht!]
 \begin{center}
@@ -280,14 +279,14 @@ This has led us to develop a metadata browser, A-gis-full-of-records, using Reac
 \section{Discussion and Conclusions}\label{CONCLUSIONS}
 
 The OGC APIs promise exciting features for modern SDIs. Although (at least some of them are) still at an early stage, there is an active development taking place in code sprints and GitHub repositories, inclusive of the developer community and welcomes feedback.
-Similarly to what happens with OSGeo projects, hopefully, this trend will lead to high-quality specs with increased ownership from the developer community. 
+Similarly to what happens with OSGeo projects, hopefully, this trend will lead to high-quality specs with increased ownership from the developer community.
 We were surprised to see that it is already possible to implement a server-side architecture for an SDI entirely based on OGC APIs and OSGeo software. pygeoapi proved to be a sound solution for implementing multiple OGC API standards. It is very easy to install, especially using the official docker image (TODO cite reference), and is very flexible through its modular architecture, which relies on plugins for multiple data providers. Although the project is under active development, since it is free and open-source, we were able to contribute to its development.
 
-However, in terms of clients, there are still few implementations, and widely used products by the GIS community (e.g. Leaflet, MapStore, Kibana) still lack native support to the OGC APIs, along with their support to legacy W* services. 
+However, in terms of clients, there are still few implementations, and widely used products by the GIS community (e.g. Leaflet, MapStore, Kibana) still lack native support to the OGC APIs, along with their support to legacy W* services.
 
 This has led us to deploy a stack for the legacy W*s to enable the GIS researchers from the eMOTIONAL Cities project to access the project data assets using their usual tools. We believe this type of hybrid solution will work for many use cases, such as public services or research projects, where there are GIS experts, trained in legacy W*s services but with little knowledge about the OGC APIs. However, it should be mentioned that even in those cases, it will be easier to onboard a web developer with no knowledge of GIS to use the OGC APIs than to use the legacy stack.
 
-Although we have described many advantages of the OGC APIs, we believe there will be no massive uptake until enough client implementations are available and users are trained to use them. We are committed to these two fronts and have already delivered training in using clients during the OGC code sprints (TODO CIte) and started our client developments. We hope these efforts, within the scope of the four year eMOTIONAL Cities project, will contribute to the development of the OGC APIs and, not least significantly, towards their visibility, within the GIS community and the broader developer community. 
+Although we have described many advantages of the OGC APIs, we believe there will be no massive uptake until enough client implementations are available and users are trained to use them. We are committed to these two fronts and have already delivered training in using clients during the OGC code sprints (TODO CIte) and started our client developments. We hope these efforts, within the scope of the four year eMOTIONAL Cities project, will contribute to the development of the OGC APIs and, not least significantly, towards their visibility, within the GIS community and the broader developer community.
 
 
 
@@ -299,35 +298,35 @@ Although we have described many advantages of the OGC APIs, we believe there wil
 
 %\subsubsection{Placement:}\label{sec:Placement}
 
-%Figures must be placed in the appropriate location in the document, 
-%as close as practicable to the reference of the figure in the text. 
-%While figures and tables are usually aligned horizontally on the page, 
-%large figures and tables sometimes need to be turned on their sides. 
-%If you must turn a figure or table sideways, please be sure that the 
+%Figures must be placed in the appropriate location in the document,
+%as close as practicable to the reference of the figure in the text.
+%While figures and tables are usually aligned horizontally on the page,
+%large figures and tables sometimes need to be turned on their sides.
+%If you must turn a figure or table sideways, please be sure that the
 %top is always on the left-hand side of the page.
 
 
 %\subsubsection{Captions:}\label{sec:Captions}
 
-%All captions should be typed in upper and lower case letters, 
-%centred directly beneath the illustration. Use single spacing if they 
-%use more than one line. All captions are to be numbered consecutively, 
+%All captions should be typed in upper and lower case letters,
+%centred directly beneath the illustration. Use single spacing if they
+%use more than one line. All captions are to be numbered consecutively,
 %e.g. Figure~1, Figure~2, Figure~3, ..  and Table~1, Table~2, Table~3, ...
 
 % KAO: Remove spacing before label: can cause reference to be wrong
 
 % KAO: Inter-sentence spacing
-%If your article contains any copyrighted illustrations or imagery, 
-%please include a statement of copyright such as: \copyright~SPOT Image Copyright 20xx 
-%(fill in year), CNES\@. It is the author's responsibility to obtain any necessary 
-%copyright permission. After publication, your article is distributed under %\underline{the Creative 
+%If your article contains any copyrighted illustrations or imagery,
+%please include a statement of copyright such as: \copyright~SPOT Image Copyright 20xx
+%(fill in year), CNES\@. It is the author's responsibility to obtain any necessary
+%copyright permission. After publication, your article is distributed under %\underline{the Creative
 %Commons Unported License} and you retain the copyright.
 
 
 % % KAO: Non-breaking space
 
 \section*{ACKNOWLEDGEMENTS}\label{ACKNOWLEDGEMENTS}
-Acknowledgements of support for the project/paper/author are masked, in order to not violate the anonymity of the submitted paper. 
+Acknowledgements of support for the project/paper/author are masked, in order to not violate the anonymity of the submitted paper.
 
 %\section*{REFERENCES}\label{REFERENCES}
 {
