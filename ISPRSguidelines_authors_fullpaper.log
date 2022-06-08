@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.30)  8 JUN 2022 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.30)  8 JUN 2022 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -370,8 +370,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
-Underfull \hbox (badness 4060) in paragraph at lines 113--114
-\OT1/ptm/m/n/9.25 The eMO-TIONAL Cities project col-lects mostly vec-tor
+Underfull \hbox (badness 1701) in paragraph at lines 113--114
+\OT1/ptm/m/n/9.25 The eMO-TIONAL CITIES project col-lects mostly vec-tor
  []
 
 <figures/foss4g-survey-data.png, id=8, 573.14125pt x 576.1525pt>
@@ -499,7 +499,7 @@ Underfull \hbox (badness 6725) in paragraph at lines 50--53
 []\OT1/ptm/m/n/9.25 Go FAIR, 2022. FAIR Prin-ci-ples. www.go-fair.org/fair-
  []
 
-
+[5 <./figures/crawlable-catalogue-stac.png> <./figures/metadata-browser.png>]
 Underfull \hbox (badness 2134) in paragraph at lines 78--82
 []\OT1/ptm/m/n/9.25 Kralidis, T. and Brury, A. and Du-binin, M. and Tzot-
  []
@@ -514,7 +514,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--82
 \OT1/ptm/m/n/9.25 github.com/qgis/QGIS/tree/master/python/plugins/MetaSearch
  []
 
-[5 <./figures/crawlable-catalogue-stac.png> <./figures/metadata-browser.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 84--87
 []\OT1/ptm/m/n/9.25 Mapbox team, 2022. Tippeca-noe. Github.
  []
@@ -694,7 +694,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on ISPRSguidelines_authors_fullpaper.pdf (7 pages, 3170492 bytes
+Output written on ISPRSguidelines_authors_fullpaper.pdf (7 pages, 3170665 bytes
 ).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
