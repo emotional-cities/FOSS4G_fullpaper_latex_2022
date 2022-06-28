@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.30)  8 JUN 2022 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.30)  28 JUN 2022 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -366,6 +366,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6.47496> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.625> on input line 63.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 63.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 63.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 63.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -374,7 +380,7 @@ Underfull \hbox (badness 1701) in paragraph at lines 113--114
 \OT1/ptm/m/n/9.25 The eMO-TIONAL CITIES project col-lects mostly vec-tor
  []
 
-<figures/foss4g-survey-data.png, id=8, 573.14125pt x 576.1525pt>
+<figures/foss4g-survey-data.png, id=9, 573.14125pt x 576.1525pt>
 File: figures/foss4g-survey-data.png Graphic file (type png)
 <use figures/foss4g-survey-data.png>
 Package pdftex.def Info: figures/foss4g-survey-data.png  used on input line 117
@@ -405,7 +411,7 @@ Overfull \hbox (2.60095pt too wide) in paragraph at lines 127--135
  [][] 
  []
 
-<figures/pygeoapi-data-providers.png, id=10, 350.2686pt x 170.0754pt>
+<figures/pygeoapi-data-providers.png, id=11, 350.2686pt x 170.0754pt>
 File: figures/pygeoapi-data-providers.png Graphic file (type png)
 <use figures/pygeoapi-data-providers.png>
 Package pdftex.def Info: figures/pygeoapi-data-providers.png  used on input lin
@@ -418,12 +424,12 @@ Underfull \hbox (badness 1394) in paragraph at lines 170--171
  []
 
 [2 <./figures/foss4g-survey-data.png> <./figures/pygeoapi-data-providers.png>]
-<figures/sdi-arch.png, id=16, 950.55125pt x 463.7325pt>
+<figures/sdi-arch.png, id=17, 950.55125pt x 463.7325pt>
 File: figures/sdi-arch.png Graphic file (type png)
 <use figures/sdi-arch.png>
 Package pdftex.def Info: figures/sdi-arch.png  used on input line 176.
 (pdftex.def)             Requested size: 233.31252pt x 113.81711pt.
-<figures/qgis-oaf.png, id=17, 356.7729pt x 210.7875pt>
+<figures/qgis-oaf.png, id=18, 356.7729pt x 210.7875pt>
 File: figures/qgis-oaf.png Graphic file (type png)
 <use figures/qgis-oaf.png>
 Package pdftex.def Info: figures/qgis-oaf.png  used on input line 194.
@@ -438,29 +444,29 @@ Underfull \hbox (badness 7099) in paragraph at lines 200--201
 \OT1/ptm/m/n/9.25 the main branch of Open-Lay-ers, in Septem-ber 2021
  []
 
-<figures/ol-oat.png, id=18, 621.522pt x 426.393pt>
+<figures/ol-oat.png, id=19, 621.522pt x 426.393pt>
 File: figures/ol-oat.png Graphic file (type png)
 <use figures/ol-oat.png>
 Package pdftex.def Info: figures/ol-oat.png  used on input line 204.
 (pdftex.def)             Requested size: 233.31252pt x 160.05963pt.
 [3 <./figures/sdi-arch.png> <./figures/qgis-oaf.png> <./figures/ol-oat.png>]
-<figures/sdi-legacy-arch.png, id=25, 748.7975pt x 359.3425pt>
+<figures/sdi-legacy-arch.png, id=26, 748.7975pt x 359.3425pt>
 File: figures/sdi-legacy-arch.png Graphic file (type png)
 <use figures/sdi-legacy-arch.png>
 Package pdftex.def Info: figures/sdi-legacy-arch.png  used on input line 223.
 (pdftex.def)             Requested size: 233.31252pt x 111.96526pt.
-<figures/ec-records.png, id=26, 533.5935pt x 367.1316pt>
+<figures/ec-records.png, id=27, 533.5935pt x 367.1316pt>
 File: figures/ec-records.png Graphic file (type png)
 <use figures/ec-records.png>
 Package pdftex.def Info: figures/ec-records.png  used on input line 253.
 (pdftex.def)             Requested size: 233.31252pt x 160.53004pt.
-<figures/crawlable-catalogue-stac.png, id=27, 621.522pt x 426.393pt>
+<figures/crawlable-catalogue-stac.png, id=28, 621.522pt x 426.393pt>
 File: figures/crawlable-catalogue-stac.png Graphic file (type png)
 <use figures/crawlable-catalogue-stac.png>
 Package pdftex.def Info: figures/crawlable-catalogue-stac.png  used on input li
 ne 263.
 (pdftex.def)             Requested size: 233.31252pt x 160.05963pt.
-<figures/metadata-browser.png, id=28, 621.522pt x 426.393pt>
+<figures/metadata-browser.png, id=29, 621.522pt x 426.393pt>
 File: figures/metadata-browser.png Graphic file (type png)
 <use figures/metadata-browser.png>
 Package pdftex.def Info: figures/metadata-browser.png  used on input line 273.
@@ -654,13 +660,13 @@ Overfull \hbox (41.03104pt too wide) in paragraph at lines 215--219
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-<figures/docker-compose-all.png, id=44, 1851.91875pt x 484.81125pt>
+<figures/docker-compose-all.png, id=45, 1851.91875pt x 484.81125pt>
 File: figures/docker-compose-all.png Graphic file (type png)
 <use figures/docker-compose-all.png>
 Package pdftex.def Info: figures/docker-compose-all.png  used on input line 346
 .
 (pdftex.def)             Requested size: 483.69687pt x 126.62495pt.
-<figures/docker-compose-legacy.png, id=45, 1847.90375pt x 257.96375pt>
+<figures/docker-compose-legacy.png, id=46, 1847.90375pt x 257.96375pt>
 File: figures/docker-compose-legacy.png Graphic file (type png)
 <use figures/docker-compose-legacy.png>
 Package pdftex.def Info: figures/docker-compose-legacy.png  used on input line 
@@ -677,23 +683,24 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5139 strings out of 481252
- 83659 string characters out of 5915888
+ 5150 strings out of 481252
+ 83775 string characters out of 5915888
  397389 words of memory out of 5000000
- 21996 multiletter control sequences out of 15000+600000
- 415958 words of font info for 47 fonts, out of 8000000 for 9000
+ 22003 multiletter control sequences out of 15000+600000
+ 418455 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  98i,11n,102p,1170b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on ISPRSguidelines_authors_fullpaper.pdf (7 pages, 3171164 bytes
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on ISPRSguidelines_authors_fullpaper.pdf (7 pages, 3178537 bytes
 ).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
