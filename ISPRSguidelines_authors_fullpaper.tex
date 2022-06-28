@@ -54,7 +54,7 @@
 
 % KAO: Use times symbol
 \abstract{
-	The eMOTIONAL CITIES project sets out to understand how the natural and built environment can shape the feelings and emotions of those who experience it. It does so with a cross-disciplinary approach which includes urban planners, doctors, psychologists, neuroscientists and engineers. At the core of this research project, lies a Spatial Data Infrastructure (SDI) which assembles datasets that characterise the emotional landscape and built environment, in different cities across Europe and the US. The SDI is a key tool, not only to make the research data available within the project consortium, but also to allow cross-fertilisation with other ongoing projects and later on, to reach a wider public audience.
+	The eMOTIONAL Cities project sets out to understand how the natural and built environment can shape the feelings and emotions of those who experience it. It does so with a cross-disciplinary approach which includes urban planners, doctors, psychologists, neuroscientists and engineers. At the core of this research project, lies a Spatial Data Infrastructure (SDI) which assembles datasets that characterise the emotional landscape and built environment, in different Cities across Europe and the US. The SDI is a key tool, not only to make the research data available within the project consortium, but also to allow cross-fertilisation with other ongoing projects and later on, to reach a wider public audience.
 	For more than twenty years SDIs have adopted the OGC W*s service interfaces, which are based on SOAP, the Simple Object Access Protocol. In recent years a new “family” of APIs has emerged within OGC, which is more aligned with modern web practices. In this project, we set out to leverage the advantages of this new approach, and compiled a stack to implement an SDI based on OGC APIs. However, we realised that we still need to support the legacy standards, either because an OGC API replacement is not mature enough, or there are no implementations available. This has led us to compile another stack based on the legacy standards. In this paper we describe our architecture, along with the challenges that we had to address. Both stacks are based on OSGeo Software, and they are available on GitHub.
 	}
 
@@ -69,10 +69,10 @@
 % KAO: Sloppy spacing ensures non-overfull lines. Can be removed if this is not an issue.
 \sloppy
 
-Urban planning and design play an essential role in amplifying or diminishing built environmental threats to health promotion and disease prevention ~\cite{keedwell2017,hackman2019}. However, there is still a lack of good evidence and objective measures on how environmental aspects impact individual behaviour. The eMOTIONAL CITIES project ~\cite{emotionalcities2021} sets out to understand how the natural and built environment can shape the feelings and emotions of those who experience it. It does so with a cross-disciplinary approach that includes urban planning, health, psychology, neuroscience, and environmental research.
+Urban planning and design play an essential role in amplifying or diminishing built environmental threats to health promotion and disease prevention ~\cite{keedwell2017,hackman2019}. However, there is still a lack of good evidence and objective measures on how environmental aspects impact individual behaviour. The eMOTIONAL Cities project ~\cite{emotionalCities2021} sets out to understand how the natural and built environment can shape the feelings and emotions of those who experience it. It does so with a cross-disciplinary approach that includes urban planning, health, psychology, neuroscience, and environmental research.
 Data dissemination is one of the main focuses of the project. According to FAIR Principles, scientific research data must be findable, accessible, interoperable, and reusable. In a scientific project, good data dissemination must involve a good level of machine-actionability ~\cite{fair2022}.
 
-At the core of this research project lies a Spatial Data Infrastructure (SDI), which assembles disparate datasets that characterise the emotional landscape and built environment in different cities across Europe and the US. The SDI is a key tool to make the research data available within the project consortium and allow cross-fertilisation with other ongoing projects from the Urban Health Cluster and, later on, to reach a broader public audience.
+At the core of this research project lies a Spatial Data Infrastructure (SDI), which assembles disparate datasets that characterise the emotional landscape and built environment in different Cities across Europe and the US. The SDI is a key tool to make the research data available within the project consortium and allow cross-fertilisation with other ongoing projects from the Urban Health Cluster and, later on, to reach a broader public audience.
 
 
 % KAO: Use proper quotes
@@ -108,14 +108,14 @@ Traditionally, SDIs adopt the OGC W*s service interfaces (e.g.: WMS, WFS, WCS), 
 OGC has embraced this new approach in its new family of standards called OGC APIs ~\cite{ogc2020}. Although still under active development, it already produced several approved standards: the ‘OGC API - Features’ ~\cite{ogcfeatures2022}, the ‘OGC API - EDR’ ~\cite{ogcedr2022}, and the ‘OGC API - Processes’ ~\cite{ogcprocesses2022} which provide standardised APIs for ensuring modern access to spatial data and processes using those data.
 There are many similarities in the process of designing and implementing open source and open standards. OSGeo encourages the use of open standards, like those from OGC and there is even a Memorandum of Understanding between the two organisations, initially signed in 2008 and updated recently, in 2022 ~\cite{osgeo2022,ogcmemorandum2022}. In practice, many long-standing OSGeo projects implement OGC standards and they often contribute to the standards development (e.g.: GDAL, Geoserver, QGIS, OpenLayers, Leaflet). However, in the majority of cases, they still implement the legacy W*s standards, rather than the new OGC APIs.
 
-\section{The eMOTIONAL CITIES SDI}\label{sec:EC-SDI}
+\section{The eMOTIONAL Cities SDI}\label{sec:EC-SDI}
 
-The eMOTIONAL CITIES project collects mostly vector datasets, from the neuroscience and urban planning domain (see Figure~\ref{fig:survey-results}). These datasets typically associate a location and a timestamp to other numerical or textual attributes.
+The eMOTIONAL Cities project collects mostly vector datasets, from the neuroscience and urban planning domain (see Figure~\ref{fig:survey-results}). These datasets typically associate a location and a timestamp to other numerical or textual attributes.
 
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/foss4g-survey-data.png}
-	\caption{eMOTIONAL CITIES data formats allocation}
+	\caption{eMOTIONAL Cities data formats allocation}
 \label{fig:survey-results}
 \end{center}
 \end{figure}
@@ -153,9 +153,9 @@ metadata about geospatial resources. \\\hline
 
 \subsection{Server-side Architecture}\label{sec:SERVER}
 
-Once we selected the standards for the SDI, we set out to select our software stack from existing server-side implementations of the OGC API standards, which are listed under the relevant OGC API GitHub ~\cite{ogcapifeaturesimpl2022,ogcapitilesimpl2022,ogcapirecordsimpl2022}. If available, we would favour choosing OSGeo software, as we would like to benefit from all the advantages of using Free and Open-Source Software (FOSS), including the ability to contribute changes back, if deemed relevant. In the interest of simplicity, we would also prefer software projects that implement more than one of the OGC APIs we selected, and if possible all of them. Currently, there is only one software project that addresses these two requirements: pygeoapi.
+Once we selected the standards for the SDI, we set out to select our software stack from existing server-side implementations of the OGC API standards, which are listed under the relevant OGC API GitHub ~\cite{ogcapifeaturesimpl2022,ogcapitilesimpl2022,ogcapirecordsimpl2022}. If available, we would favour choosing OSGeo software, as we would like to benefit from all the advantages of using Free and Open-Source Software (FOSS), including the ability to contribute changes back, if deemed relevant. In the interest of simplicity, we would also favour software projects that implement more than one of the OGC APIs we selected, and if possible all of them. Currently, there is only one software project that addresses these two requirements: pygeoapi.
 
-pygeoapi is a Python server implementation of the OGC API suite of standards, which “emerged as part of the next generation OGC API efforts in 2018”. It implements a number of OGC APIs, including OGC API - Tiles and OGC API - Features, and it is certified OGC Compliant and an OGC Reference Implementation for OGC API - Features - Part 1: Core 1.0. Rather than being a facade for existing W*s implementations, pygeoapi implements all the OGC APIs from scratch, leveraging all the benefits of modern web practices. For instance, it makes use of HTTP verbs (e.g.: GET/PUT/POST/DELETE) and codes (e.g.: 200, 201, 400, etc) and relies on content negotiation to retrieve the relevant media types. It also adopts JSON (JavaScript Object Notation) encodings, which is very popular among web developers and a first-class citizen in RESTfull (REST- REpresentational State Transfer) web services ~\cite{pygeoapi2019}.
+pygeoapi is a Python server implementation of the OGC API suite of standards, which “emerged as part of the next generation OGC API efforts in 2018”. It implements a number of OGC APIs, including OGC API - Tiles and OGC API - Features, and it is certified OGC Compliant and an OGC Reference Implementation for OGC API - Features - Part 1: Core 1.0. Rather than being a facade for existing W*s implementations, pygeoapi implements all the OGC APIs from scratch, leveraging all the benefits of modern web practices. For instance, it makes use of HTTP verbs (e.g.: \textit{GET/PUT/POST/DELETE}) and codes (e.g.: 200, 201, 400, etc) and relies on content negotiation to retrieve the relevant media types. It also adopts JSON (JavaScript Object Notation) encodings, which is very popular among web developers and a first-class citizen in RESTfull (REST- REpresentational State Transfer) web services ~\cite{pygeoapi2019}.
 
 According to the pygeoapi documentation ~\cite{pygeoapiproviders2022}, several data providers are supported for publishing vector data as OGC API - features (see Figure~\ref{fig:pygeoapi-providers}). ElasticSearch, along with SensorThingsAPI, is the data provider which provides the full range of functionality, including support for DateTime, which is an important aspect of neuroscience data.
 
@@ -169,12 +169,12 @@ According to the pygeoapi documentation ~\cite{pygeoapiproviders2022}, several d
 
 ElasticSearch is a search engine, dual-licensed under the source-available Server Side Public Licence and the Elastic licence ~\cite{elasticlicence2022}. It is part of the ELK stack, which includes Logstash, a server‑side data processing pipeline that ingests data from multiple sources simultaneously, transforms it, and then sends it to ElasticSearch and Kibana, a tool to visualise ElasticSearch data with maps, charts and graphs ~\cite{elkstack2022}. By adopting ElasticSearch as a vector data provider for pygeoapi, we can also leverage the complete ELK stack, to ingest and visualise our data assets.
 
-The architecture of the eMOTIONAL CITIES SDI is described in Figure~\ref{fig:sdi-arch} and Figure~\ref{fig:docker-compose} of the APPENDIX. Data and metadata are ingested from GeoJSON files in a data lake, and published as OGC API - Features, OGC API - Records and OGC API - Tiles.
+The architecture of the eMOTIONAL Cities SDI is described in Figure~\ref{fig:sdi-arch} and Figure~\ref{fig:docker-compose} of the APPENDIX. Data and metadata are ingested from GeoJSON files in a data lake, and published as OGC API - Features, OGC API - Records and OGC API - Tiles.
 
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/sdi-arch.png}
-	\caption{eMOTIONAL CITIES SDI architecture}
+	\caption{eMOTIONAL Cities SDI architecture}
 \label{fig:sdi-arch}
 \end{center}
 \end{figure}
@@ -185,7 +185,7 @@ In order to ease the deployment of the SDI and to increase the reproducibility o
 
 \subsection{Clients}\label{sec:CLIENTS}
 
-The availability of client implementations of the selected standards, is a critical aspect of the usefulness of an SDI. While we don’t have software to consume data published under the OGCA API standards, we cannot expect a serious uptake from the users. Our mission in this project does not end with publishing data using the selected standards. We want to make sure that the researchers are able to integrate these data in their workflows, either by using their usual tools, or by using new tools which we should be able to recommend and provide training for. As in the case of server-side implementations, we referred to the GitHub pages of the standards, in order to identify existing client-side implementations of the selected OGC API standards.
+The availability of client implementations of the selected standards, is a critical aspect of the usefulness of an SDI. While we don’t have software to consume data published under the OGC API standards, we cannot expect a serious uptake from the users. Our mission in this project does not end with publishing data using the selected standards. We want to make sure that the researchers are able to integrate these data in their workflows, either by using their usual tools, or by using new tools which we should be able to recommend and provide training for. As in the case of server-side implementations, we referred to the GitHub pages of the standards, in order to identify existing client-side implementations of the selected OGC API standards.
 
 OGC API - Features already features eight client implementations, including desktop applications, libraries and JavaScript APIs ~\cite{ogcapifeaturesimpl2022}. It is supported in well-known OSGeo projects such as GDAL or QGIS (see Figure~\ref{fig:qgis-oaf}). In addition, as pygeoapi publishes data in GeoJSON, it is compatible with all clients which are capable of consuming GeoJSON.
 
@@ -207,26 +207,27 @@ The support to OGC API - Tiles was merged into the main branch of OpenLayers, in
 \end{center}
 \end{figure}
 
-Although in the eMOTIONAL CITIES SDI we are focused on vector tiles, it is worth mentioning that during the March 2022 Joint OGC-OSGeo-ASF code sprint ~\cite{ogcjointcodesprint2022}, a plugin for Leaflet which adds support for map tiles was prototyped (https://github.com/openlayers/openlayers/pull/10963).
+Although in the eMOTIONAL Cities SDI we are focused on vector tiles, it is worth mentioning that during the March 2022 Joint OGC-OSGeo-ASF code sprint ~\cite{ogcjointcodesprint2022}, a plugin for Leaflet which adds support for map tiles was prototyped (https://github.com/openlayers/openlayers/pull/10963).
 
 We provide some considerations about clients for OGC API Records, in section~\ref{sec:METADATA}.
 
 \subsection{The legacy stack}\label{sec:LEGACY}
 
-During the steps of collecting the requirements for the SDI of eMOTIONAL CITIES, no participant has explicitly expressed the need to keep or share data following a specific standard. In neuroscience research is, in general, an area where there are not many standards, although the need is recognized ~\cite{poline2022}, this is no exception to GIS standards.
-For this reason, we have tried to create solutions that rely on emerging technological trends and thus are more likely to stay around in the future. However, researchers from the urban planning domain are often used to work with the legacy W*s, and as we described in section~\ref{sec:CLIENTS}, there are not that many client implementations available, which means that in some cases their preferred tool may not support an OGC API, yet. As a compromise, we decided to provide a backward compatibility system. This has led us to deploy a legacy stack, composed of mature free and open-source solutions widely used in the GIS domain, along with our OGC API stack.
+During the steps of collecting the requirements for the SDI of eMOTIONAL Cities, no participant has explicitly expressed the need to publish data following a specific standard.
+Neuroscience research does not adopt many standards, although that need is acknowledged, also for GIS data~\cite{poline2022}.
+For this reason, we have tried to create solutions that rely on emerging technological trends and thus are more likely to stay around in the future. On the other hand, researchers from the urban planning domain are often used to work with the legacy W*s, and as we described in section~\ref{sec:CLIENTS}, there are not that many client implementations available, which means that in some cases their preferred tool may not support an OGC API, yet. As a compromise, we decided to provide a backward compatibility system. This has led us to deploy a legacy stack, composed of mature free and open-source solutions widely used in the GIS domain, along with our OGC API stack.
 
 The legacy stack is built around the free and open-source GeoServer, which implements industry-standard OGC protocols such as Web Feature Service (WFS), Web Map Service (WMS), and Web Coverage Service (WCS). Additional formats and publication options are available as extensions including Web Processing Service (WPS), and Web Map Tile Service (WMTS) ~\cite{geoserver2022}. The architecture of this solution is described in Figure~\ref{fig:sdi-legacy-arch} and in Figure~\ref{fig:docker-compose-legacy} of the APPENDIX.
 
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/sdi-legacy-arch.png}
-	\caption{eMOTIONAL CITIES Legacy stack architecture}
+	\caption{eMOTIONAL Cities Legacy stack architecture}
 \label{fig:sdi-legacy-arch}
 \end{center}
 \end{figure}
 
-GeoServer can be configured to collect data from different sources, like filesystems and DBs (spatial and non).
+GeoServer can be configured to collect data from different sources, like filesystems and DBs (spatial or not).
 As part of the project, GeoServer will exclusively share data, which will be gathered in the Data Lake, the same used in the OGC API stack, and ingested in GeoServer’s stores by suitably configured data pipelines. A diagram with the server side architecture of this stack is shown below.
 Data from GeoServer can be easly consumed by a wide range of GIS clients, including the MapStore, an highly modular Open Source WebGIS framework, included in the EC’s SDI ~\cite{mapstore2022}.
 
@@ -238,13 +239,15 @@ OGC API - Records (from now OARec) specification has been developed with the sam
 Unlike CSW, which exposes records as XML documents, OARec can expose records in different formats, although the JSON format remains an essential requirement ~\cite{metadataencodings2022}.
 According to ~\cite{cataloguetype2022} there are a number of ways that records can be deployed as a "collection of records" or a catalogue.
 \begin{itemize}
-\item {Crawlable catalogue: To implement a catalogue where records are stored as individual files in one or more web-accessible locations and can be crawled by simply following hypermedia controls.1}
-\item {Searchable catalogue: To implement a catalogue where records are stored in some backend database and are accessed through an access/search API.1}
-\item {Local resources catalogue: To implement a local resource catalogue at an OGC API resources endpoint.1}
+\item {Crawlable catalogue: To implement a catalogue where records are stored as individual files in one or more web-accessible locations and can be crawled by simply following hypermedia controls}
+\item {Searchable catalogue: To implement a catalogue where records are stored in some backend database and are accessed through an access/search API}
+\item {Local resources catalogue: To implement a local resource catalogue at an OGC API resources endpoint}
 \end{itemize}
 Deciding which record catalogue to use for EC was not an easy choice, because metadata is the single entry point of an SDI, and thus it does not make sense to have multiple deployments, using legacy and modern standards. Therefore, it was decided to use the OGC API option, since it makes no sense to present an entry point that does have the characteristics and benefits that we favour adopting in the other solutions.
-The exploratory nature of the project allows for this choice, but the impossibility of recommending this choice in other fields, such as public administrations and governments, must however be mentioned. First of all, the fact that the standard is still in draft, although its maturity must be recognized. Not least importantly, given the fundamental role of metadata in an SDI, is the fact that the standard is not yet stable enough to be covered under national and international directives, such as INSPIRE, for which OGC CSW still remains a safer choice ~\cite{chester2021}.
-Having said that, the promising uptake of the standard, which even in an early stage of development, already features server-side implementations must be acknowledged. Free and Open Source solutions, such as pygeoapi, allow users to have an implementation of OARec aligned with advances in standards, which is perfectly usable in a real SDI ~\cite{ogcapirecordsimpl2022}.
+The exploratory nature of the project enables us to adopt this relatively new standard. However, we do acknowledged that the fact that the standard is still a draft may bring challenges in other contexts, such as government agencies. 
+Given the fundamental role of metadata in an SDI, the fact that the standard is not yet stable enough to be covered under national and international directives, such as INSPIRE, may be an issue for many use cases. 
+For those cases, OGC CSW still remains a safer choice ~\cite{chester2021}.
+Nonetheless, the promising uptake of the standard, which even in an early stage of development, already features server-side implementations must be acknowledged. Free and Open Source solutions, such as pygeoapi, allow users to have an implementation of OARec aligned with advances in standards, which is perfectly usable in a real SDI ~\cite{ogcapirecordsimpl2022}.
 
 On the client-side, the OGC API - Records searchable catalogue is supported natively in QGIS, through the Metasearch core plugin ~\cite{metasearch2022}. Figure~\ref{fig:qgis-rec} shows a screenshot of this plugin, which allows users to browse through the records of OGC API - Records catalogues, view the metadata and pull the associated data. This tool does not provide however, an interface for the authoring of metadata.
 
@@ -271,22 +274,22 @@ This has led us to develop a metadata browser, A-gis-full-of-records ~\cite{agis
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/metadata-browser.png}
-	\caption{The metadata browser prototype implemented for eMOTIONAL CITIES project}
+	\caption{The metadata browser prototype implemented for eMOTIONAL Cities project}
 \label{fig:metadata-browser}
 \end{center}
 \end{figure}
 
 \section{Discussion and Conclusions}\label{CONCLUSIONS}
 
-The OGC APIs promise exciting features for modern SDIs. Although (at least some of them are) still at an early stage, there is an active development taking place in code sprints and GitHub repositories, inclusive of the developer community and welcomes feedback.
+The OGC APIs promise exciting features for modern SDIs. Although (at least some of them are) still at an early stage, there is an active development taking place in code sprints and GitHub repositories, inclusive of the developer community and welcoming feedback.
 Similarly to what happens with OSGeo projects, hopefully, this trend will lead to high-quality specs with increased ownership from the developer community.
-We were surprised to see that it is already possible to implement a server-side architecture for an SDI entirely based on OGC APIs and OSGeo software. pygeoapi proved to be a sound solution for implementing multiple OGC API standards. It is very easy to install, especially using the official docker image ~\cite{dockerhubpygeoapi2022}, and is very flexible through its modular architecture, which relies on plugins for multiple data providers. Although the project is under active development, since it is free and open-source, we were able to contribute to its development.
+We were positively surprised to see that it is already possible to implement a server-side architecture for an SDI, entirely based on OGC APIs and OSGeo software. pygeoapi proved to be a sound solution for implementing multiple OGC API standards. It is very easy to install, especially using the official docker image ~\cite{dockerhubpygeoapi2022}, and is very flexible through its modular architecture, which relies on plugins for multiple data providers. Although the project is under active development, since it is free and open-source, we were able to contribute to its development.
 
 However, in terms of clients, there are still few implementations, and widely used products by the GIS community (e.g. Leaflet, MapStore, Kibana) still lack native support to the OGC APIs, along with their support to legacy W* services.
 
-This has led us to deploy a stack for the legacy W*s to enable the GIS researchers from the eMOTIONAL CITIES project to access the project data assets using their usual tools. We believe this type of hybrid solution will work for many use cases, such as public services or research projects, where there are GIS experts, trained in legacy W*s services but with little knowledge about the OGC APIs. However, it should be mentioned that even in those cases, it will be easier to onboard a web developer with no knowledge of GIS to use the OGC APIs than to use the legacy stack.
+This has led us to deploy a stack for the legacy W*s to enable the GIS researchers from the eMOTIONAL Cities project to access the project data assets using their usual tools. We believe this type of hybrid solution will work for many use cases, such as public services or research projects, where there are GIS experts, trained in legacy W*s services but with little knowledge about the OGC APIs. However, it should be mentioned that even in those cases, it will be easier to onboard a web developer with no knowledge of GIS to use the OGC APIs than to use the legacy stack.
 
-Although we have described many advantages of the OGC APIs, we believe there will be no massive uptake until enough client implementations are available and users are trained to use them. We are committed to these two fronts and have already delivered training in using clients during the OGC code sprints ~\cite{qgisclientworkshop2022, bootstrapogcapi2022} and started our client developments. We hope these efforts, within the scope of the four year eMOTIONAL CITIES project, will contribute to the development of the OGC APIs and, not least significantly, towards their visibility, within the GIS community and the broader developer community.
+Although we have described many advantages of the OGC APIs, we believe there will be no massive uptake until enough client implementations are available and users are trained to use them. We are committed to these two fronts and have already delivered training in using clients during the OGC code sprints ~\cite{qgisclientworkshop2022,bootstrapogcapi2022} and started our client developments. We hope these efforts, within the scope of the four year eMOTIONAL Cities project, will contribute towards the development of the OGC APIs and, not least significantly, towards their visibility within the GIS community and the broader developer community.
 
 
 
@@ -326,7 +329,7 @@ Although we have described many advantages of the OGC APIs, we believe there wil
 % % KAO: Non-breaking space
 
 \section*{ACKNOWLEDGEMENTS}\label{ACKNOWLEDGEMENTS}
-This research is developed under the eMOTIONAL CITIES' Project, which received funding from European Union’s Horizon 2020 research and innovation programme, under the grant agreement No 945307. The eMOTIONAL CITIES Project is a consortium of 12 partners co-coordinated by IGOT and FMUL, taking place between 2021 and 2025. More information at https://emotionalcities-h2020.eu/.
+This research is developed under the eMOTIONAL Cities' Project, which received funding from European Union’s Horizon 2020 research and innovation programme, under the grant agreement No 945307. The eMOTIONAL Cities Project is a consortium of 12 partners co-coordinated by IGOT and FMUL, taking place between 2021 and 2025. More information at https://emotionalCities-h2020.eu/.
 
 %\section*{REFERENCES}\label{REFERENCES}
 {
@@ -344,7 +347,7 @@ This research is developed under the eMOTIONAL CITIES' Project, which received f
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/docker-compose-all.png}
-	\caption{eMOTIONAL CITIES SDI docker-compose structure}
+	\caption{eMOTIONAL Cities SDI docker-compose structure}
 \label{fig:docker-compose}
 \end{center}
 \end{figure}
@@ -352,7 +355,7 @@ This research is developed under the eMOTIONAL CITIES' Project, which received f
 \begin{figure}[ht!]
 \begin{center}
 		\includegraphics[width=1.0\columnwidth]{figures/docker-compose-legacy.png}
-	\caption{eMOTIONAL CITIES Legacy stack docker-compose structure}
+	\caption{eMOTIONAL Cities Legacy stack docker-compose structure}
 \label{fig:docker-compose-legacy}
 \end{center}
 \end{figure}
